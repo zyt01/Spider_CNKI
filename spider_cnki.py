@@ -72,6 +72,8 @@ def run_article(url, aricle_from, run_times):
     if run_times is 0:
         return 0
 
+    print run_times
+
     html_code = create_html(url)
     soup = BeautifulSoup(html_code, 'html.parser')
 
