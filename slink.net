@@ -1,0 +1,2221 @@
+*vertices 11621 "复杂网络模式挖掘算法研究 "
+2 "蛋白质网络中复合体和功能模块预测算法研究 "
+3 "复杂网络中的社团结构分析算法研究综述 "
+4 "Finding communities in linear time: a physics approach"
+5 "A effic ient heuristic procedure for partition ing graphs"
+6 "A m ethod to find commun ity structures based on inform ation centrality"
+7 "D istance,d issim ilarity index and network commun ity structure"
+8 "Detecting commun ities in large networks"
+9 "Partition ing sparse m atrices w ith e igenvectors of graphs"
+10 "E ffic ient behavior of sm all-world networks"
+11 "F ind ing and evaluating commun ity structure in networks"
+12 "F ind ing local commun ity structure in networks"
+13 "Detecting network commun ities:a new system atic and effic ient algorithm"
+14 "An automated method for findingmolecular complexes in large protein interaction networks"
+15 "Functional topology in a network ofprotein interactions"
+16 "A clustering algorithm based on graphconnectivity"
+17 "Dynamical systems for discovering proteincomplexes and functional modules from biological networks"
+18 "Protein complex prediction viacost-based clustering"
+19 "Detection of functionalmodules from protein interaction networks"
+20 "The use of edge-betweennessclustering to investigate biological function in protein interac-tion networks"
+21 "An algorithm for modularity analy-sis of directed and weighted biological networks based onedge-betweenness centrality"
+22 "Uncovering the overlapping modularstructure of protein interaction networks"
+23 "Identification of functional modules ina PPI network by clique percolation clustering"
+24 "生物网络模体发现算法研究综述 "
+25 "图数据中频繁模式挖掘算法研究综述 "
+26 "一种高效频繁子图挖掘算法 "
+27 "Mining molecular fragments:Finding relevant substructures of molecules"
+28 "Substructures discovery in the subdue system"
+29 "Applying algebraic mining method of graph substructures to mutageniesis data analysis"
+30 "An apriori-based algorithm for mining frequent substructures from graph data"
+31 "Frequent subgraph discovery"
+32 "gSpan:Graph-Based substructure pattern mining"
+33 "State of the art of graph-based data mining"
+34 "CloseGraph:Mining closed frequent graph patterns"
+35 "Efficient mining of frequent subgraphs in the presence of isomorphism"
+36 "Discovering frequent topological structures from graph datasets"
+37 "Frequent pattern mining: current status and future directions"
+38 "Finding Frequent Patterns in a Large Sparse Graph *"
+39 "Complete Mining of Frequent Patterns from Graphs: Mining Graph Data"
+40 "Warmr: a data mining tool for chemical data"
+41 "Inverse entailment and progol"
+42 "Graph-based induction as a unified learning framework"
+43 "Learning logical definitions from relations"
+44 "An algebra approachfor finding frequent subgraphs with Hamilton cycle"
+45 "Prune:Aconstraint pushing framework for graph pattern mining"
+46 "Frequentpattern mining:Current status and future directions"
+47 "Towards semantic web mining"
+48 "Efficient estimation of graphletfrequency distributions in protein-protein interaction networks"
+49 "Detecting conservedinteraction patterns in biological networks"
+50 "Frequent substructurebased approaches for classifying chemical compounds"
+51 "Efficient discovery of commonsubstructures in macromolecules"
+52 "gSpan:Graph-based substructure pattern mining"
+54 "Network biology:Understandingthe cell’s fuctional organization"
+55 "Modeling interactome:scale-free or geometric-"
+56 "Afaster algorithmfor detecting network motifs"
+57 "Efficient detection of network motifs"
+58 "Network motif discovery using sub-graphenumeration and symmetry-breaking"
+59 "Analgorithmfor find-ing frequent patterns in a large sparse graph"
+60 "An alge-bra approachfor finding frequent subgraphs with Hamilton cy-cle"
+61 "Network motif iden-tificationinstochastic networks"
+62 "NeMoFinder:Dissecting genome-wide protein-protein inter-actions with meso-scale network motifs"
+65 "Mining molecular fragments:Finding relevant substructures of molecules"
+66 "Substructures discovery in the subdue system"
+67 "Applying algebraic mining method of graph substructures to mutageniesis data analysis"
+68 "An apriori-based algorithm for mining frequent substructures from graph data"
+69 "Frequent subgraph discovery"
+70 "gSpan:Graph-Based substructure pattern mining"
+71 "State of the art of graph-based data mining"
+72 "CloseGraph:Mining closed frequent graph patterns"
+73 "Efficient mining of frequent subgraphs in the presence of isomorphism"
+74 "Discovering frequent topological structures from graph datasets"
+82 "An algebra approachfor finding frequent subgraphs with Hamilton cycle"
+83 "Prune:Aconstraint pushing framework for graph pattern mining"
+84 "Frequentpattern mining:Current status and future directions"
+85 "Towards semantic web mining"
+86 "Efficient estimation of graphletfrequency distributions in protein-protein interaction networks"
+87 "Detecting conservedinteraction patterns in biological networks"
+88 "Frequent substructurebased approaches for classifying chemical compounds"
+89 "Efficient discovery of commonsubstructures in macromolecules"
+90 "gSpan:Graph-based substructure pattern mining"
+91 "Deterministic modularity optimization"
+93 "Lethality and centrality in protein networks"
+94 "Community structure in social and biological networks"
+95 "On power-law relationships of the internet topology"
+96 "Diameter of the world-wide web"
+97 "Scale-free characteristics of random networks: the topology of the world-wide web"
+98 "Network biology: understanding the cell’s functional organization"
+99 "Substructure discovery using minimum description length and background knowledge"
+100 "Dynamics of the p53-Mdm2 feedback loop in individual cells"
+101 "An efficient heuristic procedure for partitioning graphs"
+102 "From XML Schema to Relations:A Cost-Based Approach to XML Storage"
+103 "基于蛋白质相互作用的概率网络模体发现算法研究 "
+104 "一种高效的生物网络概率模体发现算法 "
+105 "非树型网络模体发现算法 "
+106 "A note on the derivation of maximal common subgraphs of two directed or undirected graphs"
+107 "Graph align-ments:a new concept to detect conserved regions in proteinactive sites"
+108 "Collection of complex networks(DB/OL)"
+109 "Superfamilies of evolved and designed networks"
+110 "Dynamics of the p53-Mdm2feedback loop in individual cells"
+111 "Efficient sampling algorithm for estimating subgraph concentrations and detecting network motifs"
+112 "Afaster algorithmfor detecting network motifs"
+113 "FANMOD:a Tool For Fast Network MotifDetection"
+114 "Efficient detection of network motifs"
+115 "NeMoFinder:Dissecting genome-wide protein-protein inter-actions with meso-scale network motifs"
+116 "加权最大频繁子图挖掘算法的研究 "
+117 "结构数据挖掘与处理的若干问题的研究 "
+118 "Levelwise Search and Borders of Theories in Knowledge Discovery"
+122 "Frequent mining of subgraph struc-tures"
+123 "Computational aspects of mining maximal frequent patterns"
+124 "Graph mining:laws,generators,andalgorithms"
+125 "gSpan:Graph-based substructure pattern mining"
+126 "Efficient mining of frequent subgraphs in the presence of isomorphism"
+127 "Frequent subgraph discovery"
+128 "关于图同构复杂性的分析 "
+129 "关于图同构复杂性的一点补充 "
+130 "两类图同构的充分必要条件 "
+131 "边型带权核子图的边可重构性 "
+132 "邻域伪相似点的可重构性 "
+134 "Reconstructing the n-connected components of a graph"
+135 "A necessary but insufficient condition for pseudo-similar vertices"
+136 "on reconstructing degree sequences"
+137 "Graphs with three mutually pseudo-similar vertices"
+138 "Reconstructing a graph from its neighborhood lists"
+139 "A New Result on Reconstructible Local Subgraphs"
+140 "On Reconstructible Local Subgraphs"
+141 "Graph Reconstructions-A Survey"
+142 "有向图的同构判定算法:出入度序列法 "
+143 "图的同构判定算法:关联度序列法及其应用 "
+144 "甲骨文自动识别的图论方法 "
+145 "Chinese signature verification: The Topological approach and the waveform matching approach"
+146 "一种汉字签名双重识别方法 "
+147 "一种波形匹配新算法:V-P-V算法─—用于中文签名真伪识别 "
+148 "Automatic Signature Verification: System Description and Field Test Results"
+149 "Signature Verification Experiment Based on Nolincar Time Alignment: A Feasibi1ity"
+150 "Automatic signature verification: the state of the art 1989-1993"
+151 "Automatic signature verification using a three-axis force-sensitive pen"
+152 "Chan F, Kamins.David. Signature recognition through spectral analysis"
+154 "Recognition of Handwritten Chinese-A Review"
+157 "Recognition of Handwritten Chinese-A Review"
+158 "Chinese signature verification: The Topological approach and the waveform matching approach"
+159 "A fast backtracking algorithm to test directed graphs for isomorphism using distance matrices"
+160 "Subgraph transforma-tions for the inexact matching of attributed relational graphs"
+161 "Graphisomorphismcompleteness for chordal bipartite graphs and strongly chordal graphs"
+162 "On the hardness of graph isomorphism"
+163 "Ani mproved algorithm for matchinglarge graphs"
+164 "Hierarchy of isomorphism testing:[Technical Report].[Caltech CSTR:1984.5140-tr-84]"
+165 "An algorithmfor subgraphisomorphism"
+166 "Practical graph isomorphism"
+167 "一种基于统计的生物网络模体发现算法 "
+169 "Substructure discovery in the SUBDUE system"
+170 "An Apriori-based Algorithm for Mining Frequent Substructures from Graph Data"
+171 "Network biology: Understanding the cell’s fuctional organization"
+172 "Efficient detecting network motifs"
+173 "An algorithm for finding frequent patterns in a large sparse graph"
+174 "Network motifs: simple building blocks of complex networks"
+175 "Transcriptional regulatory networks in Saccharomyces cerevisiae"
+176 "NeMoFinder:dissec-ting genome-w ide protein-protein interactions w ith meso-scale netw ork motifs"
+177 "Local graph alignment and motifsearch in biological netw orks"
+178 "Optimizationby simulated annealing"
+179 "Hybrid genetic algorithm and simu-lated annealing for tw o-dimensional non-guillotine rec-tangular packing problems"
+180 "Uri Alon Lab.E.COLI"
+181 "Min-ing bridge and brick motifs fromcomplex biological networks for functionally andstatistically significant discovery"
+182 "Closure-Tree: An Index Structure for Graph Queries"
+183 "Application of heuristic and hybrid-GASA algorithms to tool-path optimization problem for minimizing airtime during machining"
+184 "Network motifs: simple building blocks of complex networks"
+185 "Equation of state calculations by fast computing machines"
+188 "Graph align-ments:a new concept to detect conserved regions in proteinactive sites"
+189 "Collection of complex networks(DB/OL)"
+190 "Superfamilies of evolved and designed networks"
+191 "Dynamics of the p53-Mdm2feedback loop in individual cells"
+192 "Efficient sampling algorithm for estimating subgraph concentrations and detecting network motifs"
+193 "Afaster algorithmfor detecting network motifs"
+194 "FANMOD:a Tool For Fast Network MotifDetection"
+195 "Efficient detection of network motifs"
+196 "NeMoFinder:Dissecting genome-wide protein-protein inter-actions with meso-scale network motifs"
+197 "从不确定图中挖掘频繁子图模式 "
+198 "Databases with uncertainty and lineage"
+199 "Efficient query evaluation on probabilistic databases"
+200 "Frequent subgraph discovery"
+201 "A quickstart in frequent structure mining can make a difference"
+202 "Spin:Mining maximal frequent subgraphs from graph databases"
+203 "Interaction generality,a measurement to assess the reliability of a protein-protein interaction"
+204 "Top-k query processing in uncertain databases"
+205 "Mining frequent itemsets from uncertain data"
+206 "A decremental approach for mining frequent itemsets from uncertain data"
+207 "Anapriori-based algorithmfor mining frequent substructures from graph data"
+208 "Graph-based Substructure Pattern Mining"
+209 "Efficient mining of frequent subgraphs in the presence of isomorphism"
+213 "Mining molecular fragments:Finding relevant substructures of molecules"
+214 "Substructures discovery in the subdue system"
+215 "Applying algebraic mining method of graph substructures to mutageniesis data analysis"
+216 "An apriori-based algorithm for mining frequent substructures from graph data"
+217 "Frequent subgraph discovery"
+218 "gSpan:Graph-Based substructure pattern mining"
+219 "State of the art of graph-based data mining"
+220 "CloseGraph:Mining closed frequent graph patterns"
+221 "Efficient mining of frequent subgraphs in the presence of isomorphism"
+222 "Discovering frequent topological structures from graph datasets"
+230 "An algebra approachfor finding frequent subgraphs with Hamilton cycle"
+231 "Prune:Aconstraint pushing framework for graph pattern mining"
+232 "Frequentpattern mining:Current status and future directions"
+233 "Towards semantic web mining"
+234 "Efficient estimation of graphletfrequency distributions in protein-protein interaction networks"
+235 "Detecting conservedinteraction patterns in biological networks"
+236 "Frequent substructurebased approaches for classifying chemical compounds"
+237 "Efficient discovery of commonsubstructures in macromolecules"
+238 "gSpan:Graph-based substructure pattern mining"
+240 "Network biology:Understandingthe cell’s fuctional organization"
+241 "Modeling interactome:scale-free or geometric-"
+242 "Afaster algorithmfor detecting network motifs"
+243 "Efficient detection of network motifs"
+244 "Network motif discovery using sub-graphenumeration and symmetry-breaking"
+245 "Analgorithmfor find-ing frequent patterns in a large sparse graph"
+246 "An alge-bra approachfor finding frequent subgraphs with Hamilton cy-cle"
+247 "Network motif iden-tificationinstochastic networks"
+248 "NeMoFinder:Dissecting genome-wide protein-protein inter-actions with meso-scale network motifs"
+249 "不确定图数据库中高效查询处理 "
+250 "不确定性数据管理技术研究综述 "
+251 "RFID复杂事件处理技术 "
+252 "RFID:from concepts to concrete implementation"
+253 "Integrating auto-matic data acquisition with business processes experiences with SAP’s auto-ID infrastructure"
+254 "Quantitive view on how RFID will improve a supply chain"
+255 "Logan airport to demonstrate baggage,passenger RFID tracking"
+256 "Hospital uses RFID for surgical patients"
+257 "Managing RFID data"
+258 "Adaptive clean-ing for RFID data streams"
+259 "A pipelined framework for online cleaning of sensor data streams"
+260 "Cost-conscious cleaning of massive RFID data sets"
+261 "传感器网络及其数据管理的概念、问题与进展 "
+263 "OLAP over uncertain and imprecise data"
+264 "Fromdata privacy to location privacy:Models andalgorithms(tutorial)"
+265 "The theory of probabilistic databas-es"
+266 "The management ofprobabilistic data"
+267 "Query evaluationin probabilistic databases"
+268 "On the representationand querying of sets of possible worlds"
+269 "Incomplete information in relationaldatabases"
+270 "Finding frequent items inprobabilistic data"
+271 "Towards expressive publish/subscribe systems"
+272 "High-performance complex eventprocessing over streams"
+273 "Snoopib:Interval-basedevent specification and detection for active databases"
+274 "Finding reliable subgraphs from large probabilistic graphs"
+276 "Algorithmics and applica-tions of tree and graph searching"
+277 "Efficient query evaluation on probabilis-tic databases"
+278 "The most reliable subgraph problem"
+279 "FOGGER:An algorithm for graph generator discovery"
+280 "gSpan:Graph-based substructure pattern mining"
+281 "Graph indexing: A frequent structure-based approach"
+282 "Interaction generality, a measurement to assess the reliability of a protein–protein interaction"
+283 "Top-kquery processingin uncertain databases"
+290 "Frequent mining of subgraph struc-tures"
+291 "Computational aspects of mining maximal frequent patterns"
+292 "Graph mining:laws,generators,andalgorithms"
+293 "gSpan:Graph-based substructure pattern mining"
+294 "Efficient mining of frequent subgraphs in the presence of isomorphism"
+295 "Frequent subgraph discovery"
+296 "蛋白质相互作用网络进化分析研究进展 "
+297 "系统生物学的现状与展望 "
+298 "Gene perturbation and intervention in probabilistic Boolean networks"
+299 "Simulation and validation of modelled sphingolipid metabolism in Saccha-romyces cerevisiae"
+300 "Gerstein M Prediction of regulatory networks: Genome-wide identification of transcription factor targets from gene expression data"
+301 "Advances in flux balance analysis"
+302 "Metabolic Control Analysis under Uncertainty: Framework Development and Case Studies"
+303 "Cluster analysis and display of genome-wide expression patterns"
+304 "Biclustering algorithms for biological data analysis: a survey"
+305 "Predicting gene expression from sequence"
+306 "Genomic studies of transcription factor-DNA interactions"
+307 "A method for the determination of flux in elementary modes, and its application to Lac-tobacillus rhamnosus"
+308 "Comparative analysis of the Saccharomyces cerevisiae and Caenorhabditis elegans protein interaction networks"
+309 "Positive selection at the protein network periphery:Evaluation in terms of structural constraints and cellular context"
+310 "Regulatory evolution across the protein interaction network"
+311 "Phylogenetic methodology for detecting protein interactions"
+312 "Reconstruction of human protein interolog network using evolutionary conserved network"
+313 "Co-evolution and co-adaptation in protein networks"
+314 "Gene duplication and hierarchical modularity in intracellular interaction networks"
+315 "Modularity&quot;for free&quot;in genome architecture.arXiv:q-bio"
+316 "The road to modularity"
+317 "The origins and evolution of functional modules:lessons from protein complexes"
+318 "数据挖掘中的聚类算法综述 "
+319 "X-m eans:Extend ing K-m eans w ith E fficient Esti-mation of the Number of the C lusters"
+320 "ROCK:A Robust C lustering A lgorithmfor Categorical Attributes"
+321 "Co-clustering Docum ents and W ords Using B ipartite Spec-tral G raph Partition ing"
+322 "On Scaling up Balanced C lustering A lgorithm s"
+323 "A D ensity-based A lgorithmfor D iscovering C lusters in Large Spatial Databases w ith Noise"
+324 "CURE:An E fficient C lustering A lgo-rithm for Large Databases"
+325 "Refin ing In itial Points for K-m eans C lustering"
+326 "Refin ing C lusters in H igh D im ensionalData"
+331 "A effic ient heuristic procedure for partition ing graphs"
+332 "A m ethod to find commun ity structures based on inform ation centrality"
+333 "D istance,d issim ilarity index and network commun ity structure"
+334 "Detecting commun ities in large networks"
+335 "Partition ing sparse m atrices w ith e igenvectors of graphs"
+336 "E ffic ient behavior of sm all-world networks"
+337 "F ind ing and evaluating commun ity structure in networks"
+338 "F ind ing local commun ity structure in networks"
+339 "Detecting network commun ities:a new system atic and effic ient algorithm"
+340 "An automated method for findingmolecular complexes in large protein interaction networks"
+341 "Functional topology in a network ofprotein interactions"
+342 "A clustering algorithm based on graphconnectivity"
+343 "Dynamical systems for discovering proteincomplexes and functional modules from biological networks"
+344 "Protein complex prediction viacost-based clustering"
+345 "Detection of functionalmodules from protein interaction networks"
+346 "The use of edge-betweennessclustering to investigate biological function in protein interac-tion networks"
+347 "An algorithm for modularity analy-sis of directed and weighted biological networks based onedge-betweenness centrality"
+348 "Uncovering the overlapping modularstructure of protein interaction networks"
+349 "Identification of functional modules ina PPI network by clique percolation clustering"
+353 "Mining molecular fragments:Finding relevant substructures of molecules"
+354 "Substructures discovery in the subdue system"
+355 "Applying algebraic mining method of graph substructures to mutageniesis data analysis"
+356 "An apriori-based algorithm for mining frequent substructures from graph data"
+357 "Frequent subgraph discovery"
+358 "gSpan:Graph-Based substructure pattern mining"
+359 "State of the art of graph-based data mining"
+360 "CloseGraph:Mining closed frequent graph patterns"
+361 "Efficient mining of frequent subgraphs in the presence of isomorphism"
+362 "Discovering frequent topological structures from graph datasets"
+370 "An algebra approachfor finding frequent subgraphs with Hamilton cycle"
+371 "Prune:Aconstraint pushing framework for graph pattern mining"
+372 "Frequentpattern mining:Current status and future directions"
+373 "Towards semantic web mining"
+374 "Efficient estimation of graphletfrequency distributions in protein-protein interaction networks"
+375 "Detecting conservedinteraction patterns in biological networks"
+376 "Frequent substructurebased approaches for classifying chemical compounds"
+377 "Efficient discovery of commonsubstructures in macromolecules"
+378 "gSpan:Graph-based substructure pattern mining"
+380 "Network biology:Understandingthe cell’s fuctional organization"
+381 "Modeling interactome:scale-free or geometric-"
+382 "Afaster algorithmfor detecting network motifs"
+383 "Efficient detection of network motifs"
+384 "Network motif discovery using sub-graphenumeration and symmetry-breaking"
+385 "Analgorithmfor find-ing frequent patterns in a large sparse graph"
+386 "An alge-bra approachfor finding frequent subgraphs with Hamilton cy-cle"
+387 "Network motif iden-tificationinstochastic networks"
+388 "NeMoFinder:Dissecting genome-wide protein-protein inter-actions with meso-scale network motifs"
+391 "Mining molecular fragments:Finding relevant substructures of molecules"
+392 "Substructures discovery in the subdue system"
+393 "Applying algebraic mining method of graph substructures to mutageniesis data analysis"
+394 "An apriori-based algorithm for mining frequent substructures from graph data"
+395 "Frequent subgraph discovery"
+396 "gSpan:Graph-Based substructure pattern mining"
+397 "State of the art of graph-based data mining"
+398 "CloseGraph:Mining closed frequent graph patterns"
+399 "Efficient mining of frequent subgraphs in the presence of isomorphism"
+400 "Discovering frequent topological structures from graph datasets"
+408 "An algebra approachfor finding frequent subgraphs with Hamilton cycle"
+409 "Prune:Aconstraint pushing framework for graph pattern mining"
+410 "Frequentpattern mining:Current status and future directions"
+411 "Towards semantic web mining"
+412 "Efficient estimation of graphletfrequency distributions in protein-protein interaction networks"
+413 "Detecting conservedinteraction patterns in biological networks"
+414 "Frequent substructurebased approaches for classifying chemical compounds"
+415 "Efficient discovery of commonsubstructures in macromolecules"
+416 "gSpan:Graph-based substructure pattern mining"
+419 "Lethality and centrality in protein networks"
+420 "Community structure in social and biological networks"
+421 "On power-law relationships of the internet topology"
+422 "Diameter of the world-wide web"
+423 "Scale-free characteristics of random networks: the topology of the world-wide web"
+424 "Network biology: understanding the cell’s functional organization"
+425 "Substructure discovery using minimum description length and background knowledge"
+426 "Dynamics of the p53-Mdm2 feedback loop in individual cells"
+427 "An efficient heuristic procedure for partitioning graphs"
+428 "From XML Schema to Relations:A Cost-Based Approach to XML Storage"
+429 "Biological network motif detection: principles and practice"
+430 "Application of heuristic and hybrid-GASA algorithms to tool-path optimization problem for minimizing airtime during machining"
+431 "An optimal algorithm for counting network motifs"
+432 "Hybrid genetic algorithm and simulated annealing for two-dimensional non-guillotine rectangular packing problems"
+433 "The coordinated evolution of yeast proteins is constrained by functional modularity"
+434 "Protein interaction networks of Saccharomyces cerevisiae, Caenorhabditis elegans and Drosophila melanogaster: Large‐scale organization and robustness"
+435 "Using a Euclid distance discriminant method to find protein coding genes in the yeast genome"
+436 "A clustering algorithm based on graph connectivity"
+437 "MINT:the Molecular INTeraction database"
+438 "Network motifs in integrated cellular networks of transcription–regulation and protein–protein interaction"
+439 "Evolution thinks modular"
+440 "Evolutionary rate depends on number of protein-protein interactions independently of gene expression level"
+441 "Evolutionary conservation of motif constituents in the yeast protein interaction network"
+442 "Cooperative evolution in protein complexes of yeast from comparative analyses of its interaction network"
+443 "Network motifs: theory and experimental approaches"
+444 "Conserved network motifs allow protein?protein interaction prediction"
+445 "Coarse-graining and self-dissimilarity of complex networks"
+446 "Local graph alignment and motif search in biological networks"
+447 "基于模体的复杂网络测度量及社团结构检测算法 "
+448 "沪深两市股权关联网络的社团结构及其稳健性  "
+449 "基于复杂网络的上海证券交易所富人俱乐部特性研究 "
+450 "On the rich-club effect in dense and weighted networks"
+451 "Research on the relationshipsof the domestic mutual investment of China based on the cross-shareholding networks of the listed companies"
+452 "Detecting rich-club ordering in complex networks"
+453 "Emergence of scaling in random networks"
+454 "The Rich-Club Phenomenon in the Internet Topology"
+455 "Statistical mechanics of complex networks"
+456 "Error and attack tolerance of complex networks"
+457 "基于复杂网络的股票社团化分析 "
+458 "股市网络的稳定性分析 "
+459 "中国股票关联网络拓扑性质与聚类结构分析 "
+460 "从统计物理学看复杂网络研究 "
+461 "Correlation based networks of equity returns sampled at different time horizons"
+462 "Clustering and information in correlation based financial networks"
+463 "Networks of equities in financial markets"
+464 "Hierarchical structure in financial markets"
+465 "Statistical Mechanics of Net-works"
+466 "Mixing Patterns in Networks"
+467 "Improved Forecasting Throughthe Design of Homogeneous Groups"
+468 "NoiseDressing of Financial Correlation Matrices"
+469 "An InterestRates Cluster Analysis"
+470 "Hierarchical Structure in FinancialMarkets"
+471 "WeightedScale-Free Network in Financial Correlations"
+472 "Clustering and Infor-mation in Correlation Based Financial Networks"
+473 "Complex Networks ina Stock Market"
+474 "De-gree Stability of a Minimum Spanning Tree of PriceReturn and Volatility"
+475 "上海证券市场的复杂网络特性分析 "
+476 "Scale-free network in stock market"
+477 "Emergence of scaling in randomnetworks"
+478 "Weighted scale-freenetwork in financial correlations"
+479 "On power-lawrelationship of the Internet topology"
+480 "Collective dynamics of small worldnetworks"
+481 "Statistical mechanics of complexnetworks"
+482 "On random graphs"
+483 "Emergenceof complexity in financial networks"
+484 "The small world problem"
+485 "证券指数的网络动力学模型 "
+488 "Stability of a complex dynami-cal network model"
+489 "Statistical mechanics of complex networks"
+490 "The structure and function of complex networks"
+491 "Weighted scale-free network in financial correlations"
+492 "Complex networks in a stock market"
+493 "Error and attack tolerance of complex networks"
+495 "Scale-free network in stock market"
+496 "Emergence of scaling in randomnetworks"
+497 "Weighted scale-freenetwork in financial correlations"
+498 "On power-lawrelationship of the Internet topology"
+499 "Collective dynamics of small worldnetworks"
+500 "Statistical mechanics of complexnetworks"
+501 "On random graphs"
+502 "Emergenceof complexity in financial networks"
+503 "The small world problem"
+504 "Financial in-fluences and scale-free networks"
+505 "Fast algorithm for detecting community structure in networks"
+506 "Commun ity structure in jazz"
+507 "Subnetwork h ierarch ies of b iochem ical pathways"
+508 "Finding community structure in very large networks"
+509 "Identity and search in social networks"
+510 "基于共享最近邻探测社团结构的算法 "
+511 "基于先验知识与模块性的网络社区结构探测算法 "
+512 "复杂网络中的社区发现——理论与应用 "
+513 "Structure of growing networks with preferential linking"
+514 "Random graphs with arbitrary degree distributions and their applications"
+515 "The large-scale organization of metabolic networks"
+516 "A faster algorithm for betweenness centrality"
+517 "The structure of scientific collaboration networks"
+518 "Si mple rules yield complex food webs"
+519 "The small-world problem"
+520 "Detecting community structure in networks"
+521 "Finding commu-nity structure in very large networks"
+522 "Scaling properties ofscale-free evolving networks:continuous approach"
+523 "Statistical mechanics ofcomplex networks"
+524 "Collective dynamics of‘small-world’networks"
+525 "Fast algorithm for detecting commu-nity structure in networks"
+526 "基于聚类分析的复杂网络中的社团探测 "
+527 "Genetic algorithm guided clustering"
+528 "Distance metric learning,with application to clustering with side-information"
+529 "Detecting communities in large networks"
+530 "Partitioning sparse matrices with eigenvectors of graphs"
+531 "Finding community structure in very large networks"
+532 "Detecting network communities:a newsystematic and efficient algorithm"
+533 "Spectral clustering and its use in bioinformatics"
+534 "Community structure in social and biological networks"
+535 "Finding and evaluating community structure in networks"
+536 "Genetic algorithm guided clustering"
+537 "A spectral clustering approach to finding communities in graphs"
+538 "Finding clusters of different sizes,shapes,and densities in noisy,high dimensional data"
+539 "Exploring complex networks"
+540 "Statistical mechanics of complex networks"
+541 "The structure and function of complex networks"
+542 "Community structure in social and biological networks"
+543 "Finding and evaluating community structure in networks"
+544 "Partitioning sparse matrices with eigenvectors of graphs"
+547 "相变与临界现象(Ⅲ)——顶角模型 "
+552 "Statistical Mechanics of Net-works"
+553 "Mixing Patterns in Networks"
+554 "Improved Forecasting Throughthe Design of Homogeneous Groups"
+555 "NoiseDressing of Financial Correlation Matrices"
+556 "An InterestRates Cluster Analysis"
+557 "Hierarchical Structure in FinancialMarkets"
+558 "WeightedScale-Free Network in Financial Correlations"
+559 "Clustering and Infor-mation in Correlation Based Financial Networks"
+560 "Complex Networks ina Stock Market"
+561 "De-gree Stability of a Minimum Spanning Tree of PriceReturn and Volatility"
+562 "基于加权超网络模型的知识网络鲁棒性分析及应用 "
+563 "基于知识网络的专家领域知识发现及表示方法 "
+564 "知识网络的构建过程分析 "
+565 "知识网络动态与政策控制(Ⅰ)──模型的建立 "
+566 "Winning by Co-Opeting in Strategic Government-University-Industry R&amp;D Partnerships: The Power of Complex, Dynamic Knowledge Networks"
+567 "The knowledge chain model: activities for competitiveness"
+568 "Developing a knowledge strategy"
+569 "Towards knowledge networking"
+570 "基于MIS平台的企业知识网络的组建 "
+571 "市场营销专家知识的获取 "
+572 "Understand Knowledge Management"
+574 "人口扩散与空间相互作用的联系 "
+575 "Economic models of knowledge networks"
+576 "A statistical theory of spatial distribution models"
+577 "A dynamic phase transition model for spatial agglomeration process"
+578 "North-South Knowledge Spillovers and Competi- tion : Convergence Versus Divergence"
+579 "Knowledge network and market structure:an analytical perspective"
+580 "Informal networking"
+581 "知识管理与市场营销专家知识的分形特征 "
+583 "Understand Knowledge Management"
+584 "Detecting ambiguity: An example in knowledge evaluation"
+585 "A Pragmatic Knowledge Acquisition Methodology"
+586 "Network structure and the diffusion of knowledge"
+587 "Leading virtual knowledge networks"
+588 "Computational organization science: A new frontier"
+589 "Information Technology and Knowledge Distribution in C3I teams"
+590 "食物链网络在顶点攻击与边攻击下的鲁棒性 "
+591 "Cascade-based attacks on complex networks"
+592 "Cascade control and defense in complex networks"
+593 "Range-based attack on links in scale-free networks: Are long-range links responsible for the small-world phenomenon"
+594 "Network structure and biodiversity loss in food webs: robustness increases with connectance"
+595 "Evolution of networks"
+596 "Attack vulnerability of complex networks"
+597 "Complex networks in statistical physcs"
+598 "Efficiency of scale-free networks: error and attack tolerance"
+602 "Economic models of knowledge networks"
+603 "A statistical theory of spatial distribution models"
+604 "A dynamic phase transition model for spatial agglomeration process"
+605 "North-South Knowledge Spillovers and Competi- tion : Convergence Versus Divergence"
+606 "Knowledge network and market structure:an analytical perspective"
+607 "Informal networking"
+609 "The knowledge chain model: activities for competitiveness"
+610 "Developing a knowledge strategy"
+611 "Towards knowledge networking"
+612 "Multitiered Supply Chain Networks: Multicriteria Decision—Making Under Uncertainty"
+614 "Cascade-based attacks on complex networks"
+615 "Cascade control and defense in complex networks"
+616 "Range-based attack on links in scale-free networks: Are long-range links responsible for the small-world phenomenon"
+617 "Network structure and biodiversity loss in food webs: robustness increases with connectance"
+618 "Evolution of networks"
+619 "Attack vulnerability of complex networks"
+620 "Complex networks in statistical physcs"
+621 "Efficiency of scale-free networks: error and attack tolerance"
+622 "Random field Ising model and community structure in complex networks"
+623 "Community analysis in social networks"
+625 "A method of matrix analysis of group structure"
+626 "Email as spectroscopy:Automated discovery of community structure within organizations"
+627 "Electronic states around a vortex core in high-T,superconductors based on the t-J model"
+628 "Distance,dissimilarity index,and network community structure"
+629 "Weighted network modules"
+630 "Uncovering the overlapping modular structure of protein interaction networks"
+631 "Directed network modules"
+632 "Error and attack tolerance of layered complex networks"
+633 "Clustering in weighted networks"
+634 "The network of inter-regional direct investment stocks across Europe"
+635 "基于局部信息的复杂网络社团结构发现算法 "
+636 "基于最大节点接近度的局部社团结构探测算法 "
+637 "Hub-based Community Finding"
+638 "Community structure in social and biological networks"
+639 "Finding and evaluating community structure in networks"
+640 "A local method for detecting communities"
+641 "Finding local community structure in networks"
+642 "复杂网络基于局部模块度的社团划分方法 "
+643 "一种基于加权复杂网络特征的K-means聚类算法 "
+644 "Efficient disk-based K-meansclustering for relational databases"
+645 "Clustering binery data streams with K-means"
+646 "The structure and function of complex networks"
+647 "Statistical mechanics of complex networks"
+648 "Exploring complex networks"
+649 "Collective dynamics of‘small-world’networks"
+650 "Document Rank-ing and the Vector-Space Model"
+651 "Clauset"
+652 "A very fast algorithm for detecting community structures in complex networks"
+653 "Finding and evaluating community structure in networks"
+654 "Community structure in social and biological networks"
+655 "An al-gorithmfor cluste-ring relations data with applications to social network analysis and comparison with multidi-mensional scaling"
+656 "Collective dynamics of small-world networks"
+657 "Emergence of scaling in random networks"
+658 "Diameter of the world-wide web"
+659 "An efficient heuristic procedure for partitioning graphs"
+660 "复杂网络聚类方法 "
+661 "Prefetching in Content Distribution Networks via Web Communities Identification and Outsourcing"
+664 "Discovering global network communities based on local centralities"
+665 "Detecting network communities:A new systematic and efficient algorithm"
+666 "Defining and identifying communities in networks"
+667 "In serach of the biological significance of modular structures in protein networks"
+668 "Edge-Count probabilities for the identification of local protein communities and their organization"
+669 "Discovering overlapping communities of named entities"
+670 "Partitioning of Web graphs by community topology"
+671 "A community-aware search engine"
+672 "Prefetching in content distribution networks via Web communities identification and outsourcing"
+673 "复杂网络的一种快速局部社团划分算法 "
+674 "Evolution of networks"
+675 "An information flowmodel for conflict and fission in small groups"
+676 "On power-law rela-tionships of the internet topology"
+677 "The small-world of human lan-guage"
+678 "ALocal Method for Detecting Commu-nities"
+679 "Finding local community structure in networks"
+680 "An information flow model for conflict and fission in small groups"
+681 "Scientific collaboration networks"
+682 "Inferring Web communities from link topology"
+683 "Fuzzy analysis of community detection in complex networks"
+684 "Community structure in social and biological networks"
+685 "An efficient heuristic procedure for partitioning graphs"
+686 "Partitioning sparse matrices with eigenvectors of graphs"
+687 "An information flow model for conflict and fission in small groups"
+688 "Subnetwork hierarchies of biochemical pathways"
+689 "An algorithm for clustering relational data with applications to social network analysis and comparison with multidimensional scaling"
+690 "Diameter of the world-wide web"
+691 "Scientific collaboration networks. Ⅱ. Shortest paths, weighted networks, and centrality"
+701 "Statistical Mechanics of Net-works"
+702 "Mixing Patterns in Networks"
+703 "Improved Forecasting Throughthe Design of Homogeneous Groups"
+704 "NoiseDressing of Financial Correlation Matrices"
+705 "An InterestRates Cluster Analysis"
+706 "Hierarchical Structure in FinancialMarkets"
+707 "WeightedScale-Free Network in Financial Correlations"
+708 "Clustering and Infor-mation in Correlation Based Financial Networks"
+709 "Complex Networks ina Stock Market"
+710 "De-gree Stability of a Minimum Spanning Tree of PriceReturn and Volatility"
+712 "Scale-free network in stock market"
+713 "Emergence of scaling in randomnetworks"
+714 "Weighted scale-freenetwork in financial correlations"
+715 "On power-lawrelationship of the Internet topology"
+716 "Collective dynamics of small worldnetworks"
+717 "Statistical mechanics of complexnetworks"
+718 "On random graphs"
+719 "Emergenceof complexity in financial networks"
+720 "The small world problem"
+724 "Stability of a complex dynami-cal network model"
+725 "Statistical mechanics of complex networks"
+726 "The structure and function of complex networks"
+727 "Weighted scale-free network in financial correlations"
+728 "Complex networks in a stock market"
+729 "Error and attack tolerance of complex networks"
+731 "Scale-free network in stock market"
+732 "Emergence of scaling in randomnetworks"
+733 "Weighted scale-freenetwork in financial correlations"
+734 "On power-lawrelationship of the Internet topology"
+735 "Collective dynamics of small worldnetworks"
+736 "Statistical mechanics of complexnetworks"
+737 "On random graphs"
+738 "Emergenceof complexity in financial networks"
+739 "The small world problem"
+740 "Financial in-fluences and scale-free networks"
+741 "Fast algorithm for detecting community structure in networks"
+742 "Commun ity structure in jazz"
+743 "Subnetwork h ierarch ies of b iochem ical pathways"
+744 "Finding community structure in very large networks"
+745 "Identity and search in social networks"
+746 "基于共邻矩阵的复杂网络社区结构划分方法 "
+747 "基于PCA的复杂网络社区结构分析方法 "
+748 "复杂网络集团特征研究综述 "
+749 "Classifying class and finding community in UML metamodel net-work"
+750 "From molecular to modular cell biolo-gy"
+751 "A Methodfor Finding Communi-ties of Related Genes"
+752 "Position in networks"
+753 "An efficient heuristic procedure for partitio-ning graphs"
+754 "Thelarge-scale organization of metabolic networks"
+755 "An al-gorithmfor cluste-ring relations data with applications to social network analysis and comparison with multidi-mensional scaling"
+757 "Structure of growing networks with preferential linking"
+758 "Random graphs with arbitrary degree distributions and their applications"
+759 "The large-scale organization of metabolic networks"
+760 "A faster algorithm for betweenness centrality"
+761 "The structure of scientific collaboration networks"
+762 "Si mple rules yield complex food webs"
+763 "The small-world problem"
+765 "The bottlenose dolphin community of Doubtful Sound features a large proportion of long-lasting associations"
+766 "Community structure in social and biological networks"
+767 "The bottlenose dolphin community of DoubtfulSound features a large propor-tion of long-lasting associations.Can geographic isola-tion explain this unique trait"
+768 "The political blogosphere and the 2004 U.S.election:divided they blog"
+769 "An Efficient Heuristic Procedure for Partitioning Graphs"
+770 "Algebraic connectivity of graphs"
+771 "Partitioning sparse matrices with eigenvectors of graphs"
+772 "Finding communities in linear time: A physics approach"
+773 "Modularity and community structure in networks"
+774 "Finding community structure in networks using the eigenvectors of matrices"
+775 "Aninformation-theoretic frame-work for resolving community structure in complex net-works"
+777 "Classifying class and finding community in UML metamodel net-work"
+778 "From molecular to modular cell biolo-gy"
+779 "A Methodfor Finding Communi-ties of Related Genes"
+780 "Position in networks"
+781 "An efficient heuristic procedure for partitio-ning graphs"
+782 "Thelarge-scale organization of metabolic networks"
+783 "An al-gorithmfor cluste-ring relations data with applications to social network analysis and comparison with multidi-mensional scaling"
+785 "Structure of growing networks with preferential linking"
+786 "Random graphs with arbitrary degree distributions and their applications"
+787 "The large-scale organization of metabolic networks"
+788 "A faster algorithm for betweenness centrality"
+789 "The structure of scientific collaboration networks"
+790 "Si mple rules yield complex food webs"
+791 "The small-world problem"
+792 "Statistical mechanics of complex networks"
+793 "The structure and function of complex networks"
+794 "An efficient heuristic procedure for partitioning graphs"
+795 "Algebraic connectivity of graphs"
+796 "Partitioning sparse matrices with eigenvectors of graphs"
+797 "Finding and evaluating community structure in networks"
+798 "Exploring complex networks"
+799 "Fast algorithm for detecting community structure in networks"
+800 "Modularity and community structure in networks"
+801 "Finding community structure in networks using the eigenvectors of matrices"
+802 "软件系统网络模体及显著性趋势分析 "
+803 "Software systems as complex networks:Structure,function,and evolvabillty of software collaboration graphs"
+804 "Signatures of small-world and scale-free properties in large computer programs"
+805 "Mfinder 1.2 ed"
+806 "The structure and function of complex networks"
+807 "Network motifs: simple building blocks of complex networks"
+808 "Scale-free Networks from Optimal Design"
+809 "Superfamilies of evolved and designed networks"
+810 "Dependency Finder"
+812 "Hub-based Community Finding"
+813 "Community structure in social and biological networks"
+814 "Finding and evaluating community structure in networks"
+815 "A local method for detecting communities"
+816 "Finding local community structure in networks"
+824 "Statistical Mechanics of Net-works"
+825 "Mixing Patterns in Networks"
+826 "Improved Forecasting Throughthe Design of Homogeneous Groups"
+827 "NoiseDressing of Financial Correlation Matrices"
+828 "An InterestRates Cluster Analysis"
+829 "Hierarchical Structure in FinancialMarkets"
+830 "WeightedScale-Free Network in Financial Correlations"
+831 "Clustering and Infor-mation in Correlation Based Financial Networks"
+832 "Complex Networks ina Stock Market"
+833 "De-gree Stability of a Minimum Spanning Tree of PriceReturn and Volatility"
+835 "Scale-free network in stock market"
+836 "Emergence of scaling in randomnetworks"
+837 "Weighted scale-freenetwork in financial correlations"
+838 "On power-lawrelationship of the Internet topology"
+839 "Collective dynamics of small worldnetworks"
+840 "Statistical mechanics of complexnetworks"
+841 "On random graphs"
+842 "Emergenceof complexity in financial networks"
+843 "The small world problem"
+844 "复杂网络拓扑特征的理论研究及仿真分析 "
+845 "抽样对复杂网络多重结构特征的影响 "
+846 "Statistical mechanics of com-plex networks"
+847 "Subnets of scale-freenetworks are not scale-free:Sampling properties ofnetworks"
+848 "Hierarchical organization incomplex networks"
+849 "Growing network with local rules:Prefer-ential attachment,clustering hierarchy,and degreecorrelations"
+850 "Assortative mixing in networks"
+851 "Efficient immuni-zation strategies for computer networks and popula-tions"
+852 "Effect of sampling on topology predictions of protein-protein interaction networks"
+853 "The structure and function of complex networks"
+854 "复杂网络幂律函数标度指数的估计与检验 "
+855 "Problems with fitting to the power-law distribution"
+856 "Growing network with local rules:Pref-erential attachment,clustering hierarchy,and degreecorrelations"
+857 "Statistical mechanics ofcomplex networks"
+858 "Community structure insocial and biological networks"
+859 "The structure and function of com-plex networks"
+860 "Communityanalysis in social networks"
+861 "Hierar-chical organization of modularity in metabolic net-works"
+862 "Hierarchical organization incomplex networks"
+863 "Towards atheory of scale-free graphs:Definition,properties,and implications"
+864 "Diameter of theworld wide web"
+865 "复杂网络上动力系统同步的研究进展 "
+866 "复杂网络研究概述 "
+867 "复杂动力网络的数学模型与同步准则 "
+868 "Models of the Small World"
+871 "On the strength of connectedness of a random graph"
+872 "Markov chain-based analysis of a modified Cooper-Frieze model"
+873 "Enhancing the network synchronizability"
+874 "Evidence for the exponential distribution of income in the USA"
+875 "Statistical mechanics of money"
+876 "Connectivity of random nets"
+877 "Complex brain networks:graph theoretical analysis of structural and functional systems"
+878 "The physics of networks"
+879 "Language as an evolving word web"
+880 "Effect of the accelerating growth of communications net-works on their structure"
+881 "Connectivity distribution and attack tolerance of general networks with both preferential and random attachments"
+882 "A comprehensive multi-local-world model for complex networks"
+883 "Weighted networks of scientific communication:the measurement and topological role of weight"
+884 "Scale-free network with variable scaling exponent"
+885 "Evolution of a large online social network"
+886 "复杂网络中的社团结构检测算法研究 "
+887 "向量相似度测度方法 "
+888 "区间数相似度研究 "
+889 "区间数排序的可能度法及其应用 "
+890 "求解不确定型多属性决策问题的一种新方法 "
+891 "模糊互补判断矩阵排序的一种算法 "
+892 "不确定性多属性决策中区间数的一种排序方法 "
+893 "区间数线性规划及其满意解 "
+894 "Note on ranking fuzzy triangular numbers"
+895 "The propagation of errors in multiple_attribute decision analysis: A practical approach"
+896 "An action learning evaluation procedure for multiple criteria decision making problems"
+897 "Incorporating the uncertainty of decision judgements in the analytic hierarchy process"
+898 "Min_transitivity of fuzzy leftness relationship and its application to decision making"
+899 "On comparing interval numbers"
+900 "The uncertain OWA operator"
+901 "On Compatibility of Interval Fuzzy Preference Relations"
+902 "Interval analysis:theory and applications"
+903 "Min-transitivity of fuzzy leftness relationship and its application to decision making"
+904 "On comparing interval numbers"
+905 "Interpretation of inequality constraints involving interval coefficients and asolution to interval programming"
+906 "Note on ranking fuzzy triangular numbers"
+907 "The uncertain OWA operator"
+908 "A comparison of similarity measures of fuzzy values"
+909 "On compatibility of interval fuzzy preference matrices"
+910 "基于形状相似度的水下目标识别算法 "
+911 "基于形状上下文的形状匹配 "
+912 "基于数学形态学的水声图像处理 "
+913 "基于钝角演化规则的多边形形状识别 "
+914 "The String-to-String Correction Problem"
+915 "Two-Dimensional Object Recognition Trough Two-Stage String Matching"
+916 "Extended Attributed String Matching for Shape Recognition"
+917 "Polygonal Shape Recognition Using String-Matching Techniques"
+918 "属性直方图及其在声纳图像模糊增强中的应用 "
+919 "变尺寸组合窗口在声呐图象搜索定位中的应用 "
+920 "图像阈值选取方法——Otsu方法的推广 "
+921 "图像的模糊增强与聚类分割 "
+922 "一种图象增强的有效方法——模糊图象增强技术 "
+923 "矩技术及其在图像处理与识别中的应用研究 "
+924 "Surveys 6 (1)"
+925 "Three-class Markovian segmentation of high-resolution sonar image"
+926 "Robustness of Shape desc-riptors to incomeplete contour representations"
+927 "Sonar image segmentation using an unsupervised hierarchical MRF model"
+928 "O-ptimal partial shape similarity"
+929 "水文相似度及其应用 "
+930 "紫色土区小流域泥沙输出过程对雨型和空间尺度的响应 "
+931 "紫色土陡坡地不同土地利用对水土流失过程的影响 "
+932 "长江上游的水土流失与河流泥沙 "
+933 "Sediment flow behavior from small agricultural watersheds"
+934 "Scale dependent thresholds in hydrological and erosion response of semi-arid catchments in southeastSpain"
+935 "Runoff and sediment yields simulation under five-soilmanagement practices"
+936 "Mathematical modeling of watershed hydrology"
+937 "层次分析法在水文计划管理信息系统中的应用 "
+938 "地貌形态特征分形信息维数与像元尺度关系研究 "
+939 "土壤水蚀预报模型研究进展 "
+940 "黄土高原多沙粗沙区侵蚀模型探讨 "
+941 "走向分形地貌学 "
+942 "通用土壤流失方程式研究进展 "
+943 "流域产沙模型概述 "
+944 "黄土高原小流域特性指标与产沙统计模式 "
+945 "Evaluating the fractal dimension of surface"
+946 "Study on the dynamic process of rill erosion on loess slope surface"
+947 "Estimating fractal dimension with the divide method in geomorphology"
+948 "水文相似和尺度分析 "
+949 "降雨随历时变化标度性质的探讨 "
+950 "水文科学研究的世纪回眸与展望 "
+951 "嘉陵江流域洪水区域分析 "
+952 "年最大洪峰区域变化的标度特性 "
+953 "论流域水文尺度化和相似性 "
+954 "水文尺度问题 "
+955 "On Hydrologic Similarity:1, Derivation of the Dimensionless Flood Frequency Curue"
+956 "The Derivation of Area Reduction Factor of Storm Rainfall from Its Scaling Properties"
+957 "Experi mental Evidence of Dynamic Scaling and Indications of Self -organized Criticality in Braided Rivers"
+958 "基于改进层次分析法的模糊综合评价模型 "
+959 "计算层次分析法中排序权值的加速遗传算法 "
+960 "生态环境综合评价方法的研究进展 "
+961 "标准遗传算法的改进方案——加速遗传算法 "
+962 "层次分析中判断矩阵排序的新方法——广义最小平方法 "
+963 "关于AHP中判断矩阵校正方法的研究 "
+964 "用动态的观点进行环境综合质量评价 "
+965 "基于地形特征的流域水文相似性 "
+966 "TOPMODEL在流域径流模拟中的应用研究 "
+967 "基于地形指数的TOPMODEL研究进展与热点跟踪 "
+968 "基于DEM的水文物理过程模拟 "
+969 "以地形为基础的流域水文模型——TOPMODEL及其拓宽应用 "
+970 "Topographic partition of watersheds with digital elevation models"
+971 "A physically based, variable contributing area model of basin hydrology.Hydro"
+972 "An application of a physically based semi-distributed model to the Balquhidder catchments"
+973 "TOPMODEL: a critique"
+974 "Prediction of surface saturation zones in natural catchments by topographic analysis"
+975 "The ln(a/tanβ)index: how to calculate it and how to use it in the TOPMODEL framework"
+976 "Digital elevation model grid size, landscape representation and hydrologic simulations"
+977 "On the extraction of channel networks from digital elevation data"
+978 "Hydrologic characteristics and modeling of a small forecasted catchment in southeastern New South Wales: Prelogging condition"
+979 "The geomorphic structure of hydrologic response"
+980 "利用相似理论进行仿真系统模型验证 "
+981 "系统仿真置信度研究中的若干问题与准则 "
+982 "Verifying and validating complex simulation models by analogy"
+983 "Principles and techniques of simulation, verification, and testing"
+984 "Validation,verification,andtestingtechniquesthroughoutthelifecycleofasimulationstudy"
+985 "Verifyingandvalidatingcomplexsimulationmodelsbyonelo gy"
+986 "本体相似度研究 "
+987 "本体中概念相似度的计算 "
+988 "一个基于相似度计算的动态多维概念映射算法 "
+989 "向量相似度在雷达目标识别中的应用 "
+990 "现代防空系统中目标识别算法研究之一 "
+991 "色谱指纹图谱相似度评价方法的规范化研究(一) "
+992 "色谱指纹图谱分析是中草药质量控制的可行策略 "
+993 "OptimizationoftheTLCofProtoberberineAlkaloidsandFingerprintevaluationoftheCoptidisRhizome"
+994 "ApplicationofHPTLCFinger printAnalysistoStabilityEvaluationofGinsenPrepara tions"
+995 "EstablishingIdentificationCriteriaforBotanicals"
+996 "UseofFingerprintingandMarkerCompoundsforIdentificationandStandardizationofBotan icalDrugs:StrategiesforApplyingPharmaceuticalHPLCAnalysistoHerbalProducts"
+997 "Pharm aceuticalFingerprinting:E valuation of N eural N etw orks and C hem om etric Techniques for D istin-guishing am ong Sam e-ProductM anufacturers"
+998 "基于向量的相似度计算方案 "
+999 "Summarizing Similarities and Differences Among Related Documents"
+1000 "复杂网络中的社团结构 "
+1001 "一门崭新的交叉科学:网络科学(下篇) "
+1002 "非线性网络的动力学复杂性研究的若干进展 "
+1003 "网络科学的理论模型探索及其进展 "
+1004 "互联网的局域世界演化模型仿真研究 "
+1005 "可变聚类系数无标度网络上的谣言传播仿真研究 "
+1006 "局域世界复杂网络中的病毒传播及其免疫控制 "
+1007 "基于复杂网络理论的即时通讯病毒研究 "
+1008 "具有无标度拓扑结构的耦合映象格子的同步与控制 "
+1009 "迅速发展的复杂网络研究与面临的挑战 "
+1010 "探索小世界特性产生的一种新方法 "
+1011 "束晕-混沌控制中的粒子跟踪模拟研究 "
+1012 "略论复杂性问题和非线性复杂网络系统的研究 "
+1013 "复杂网络的演化模型研究 "
+1014 "复杂网络研究                  ——模型和统计性质 "
+1015 "Advances in theoretical models of network science"
+1016 "Cooperative dynamics of snowdrift game on spatial distance-dependentsmall-world networks"
+1017 "Weighted evolving net-works:Coupling topology and weight dynamics"
+1018 "Topological transition features and synchronizability of a weighted hybrid preferential network"
+1019 "Unifying hybrid attachment model andits effects of hybrid ratio on topological and dynamical prop-erties"
+1020 "Aquantuminformation network andits topolo-gical properties driven by external field"
+1021 "Generalized local-world models for weighted networks"
+1022 "Effects of scale-free topological properties on dynamical synchronization and control inthe coupled maplattice"
+1023 "Synchronization and control of halo-Cha-osin beamtransport Networte,with small worldtopology"
+1024 "Control of beamhalo-chaos by soli-ton"
+1025 "Coupling schemes for cluster synchroniza-tion in coupled Josephson equation"
+1026 "Transitions to long-resident states in coupled chaotic oscillators"
+1027 "束流输运网络中多目标的分区耦合牵制控制 "
+1028 "Analytic study of spatiotemporal chaos control by applying local injections"
+1029 "Emergence of scaling in random networks"
+1030 "Scaling and percolation in the small-world network model"
+1031 "On the evolution of random graphs"
+1032 "Renormalization group analysis of the small-world network model"
+1033 "Master stability functions for synchronized coupled systems"
+1034 "Synchronization and control of halo-chaos in beamtransport network with small world topology"
+1035 "Pinning a complex dynamical networks to its equilibrium"
+1036 "Pinning control of scale-free dynamical networks"
+1040 "用结构适应实现不同系统之间的完全同步 "
+1041 "关于同步的几个理论问题 "
+1042 "2006International Conference on Communications"
+1043 "Emergence of scaling in random net-works"
+1044 "Topology of evolving networks:local events and universality"
+1045 "Topology of evolving networks:local events and universality"
+1046 "Weighted evolv-ing networks:coupling topology and weight dynamics"
+1047 "Effects of hybrid ratio on topological and dy-namical properties in HUHPM[C]:"
+1048 "Non-local couplings and partial synchro-nization in chaos systems"
+1049 "A new method to realize cluster synchronization in connected chaotic networks"
+1050 "A natural class of ro-bust networks"
+1051 "A local-world evolving network model"
+1053 "Topology of evolving networks: Local events and universality"
+1054 "Inet - 3.0; Internet topology generator"
+1055 "On distinguishing between Internet power law topology generators"
+1056 "An incremental super - linear preferential Internet topology model"
+1057 "A local - world evolving network Model"
+1058 "Modeling Internet topelogy"
+1059 "On power - lew relationships of the Internet topology"
+1060 "Accurately modeling the Internet topology"
+1061 "BRITE: An approach to universal topology generation"
+1062 "方格网络模型的数据传输动态特性 "
+1063 "Internet’s critical path horizon"
+1064 "Modeling the internet‘slarge-scale topology"
+1065 "Statistical mechanics of complex net-works"
+1066 "The structure and function of complex networks"
+1067 "Self-organized critical traffic in parallel computer networks"
+1068 "Dynamicsof jamming transitions in complex networks"
+1069 "End-to-end routing behavior in the Internet"
+1070 "On power-law relationships of the internet topology"
+1071 "On modeling round-trip time dynamics of the internet using system identification"
+1072 "Traffic based on local routing protocol on a scale-free network"
+1073 "Improved routing strategies for Internet traffic delivery"
+1074 "一种可大范围调节聚类系数的加权无标度网络模型 "
+1077 "复杂网络理论在互联网病毒传播研究中的应用 "
+1079 "Attack vulnerability of complex networks"
+1080 "Statistical mechanics of complex networks"
+1081 "Emergence of scaling in random networks"
+1082 "Collective dynamics of’small-world’net-works"
+1083 "On the evolution of random graphs"
+1084 "Error and attack tolerance of complex networks"
+1085 "The structure and function of complex networks"
+1086 "Mean-field theory for scale-free random networks"
+1087 "Epidemic dynamics and endemic states in complex networks"
+1091 "一个描述合作网络顶点度分布的模型 "
+1092 "复杂网络研究与复杂现象 "
+1093 "系统科学与复杂网络研究 "
+1094 "人类对于网络的认识的新发展 "
+1095 "系统生物学:系统科学与生物体系统 "
+1099 "内部演化的BA无标度网络模型 "
+1101 "Immunization of real complex communication networks"
+1102 "Modeling cascading failures in the North American power grid"
+1103 "Properties of weighted structured scale-free networks"
+1104 "Complex networks"
+1105 "Betweenness centrality in large complex networks"
+1107 "Statistical properties of corporate board and director networks"
+1108 "Modeling the world-wide airport network"
+1109 "Efficient Hopfield pattern recognition on a scale-free neural network"
+1111 "Efficient Immunization Strategies for Computer Networks and Populations"
+1112 "A small world network of prime numbers"
+1113 "Exploring complex networks"
+1114 "Maximal planar networks with large clustering coefficient and power-law degree distribution"
+1115 "Synchronization on (?)-Rényi networks"
+1116 "Hierarchical organization in complex networks"
+1117 "Corporate elite networks and governance changes in the 1980s, Amer"
+1118 "Epidemic dynamics in finite size scale-free networks"
+1119 "Synchronous chaos in coupled map lattices with small-world interactions"
+1120 "A harmonious unifying hybrid preferential model and its universal properties for complex dynamical networks"
+1123 "Synchronization on coupled dynamical networks"
+1124 "A Nonlocal Continuum Model for Biological Aggregation"
+1127 "Phase Transitions in Self-Driven Many-Particle Systems and Related Non-Equilibrium Models: A Network Approach"
+1128 "A non-local model for a swarm"
+1129 "Leonhard Euler(1707-1783)简况"
+1130 "一门崭新的交叉科学:网络科学(上) "
+1135 "A effic ient heuristic procedure for partition ing graphs"
+1136 "A m ethod to find commun ity structures based on inform ation centrality"
+1137 "D istance,d issim ilarity index and network commun ity structure"
+1138 "Detecting commun ities in large networks"
+1139 "Partition ing sparse m atrices w ith e igenvectors of graphs"
+1140 "E ffic ient behavior of sm all-world networks"
+1141 "F ind ing and evaluating commun ity structure in networks"
+1142 "F ind ing local commun ity structure in networks"
+1143 "Detecting network commun ities:a new system atic and effic ient algorithm"
+1144 "统计物理与复杂系统研究最近发展趋势分析 "
+1148 "Self-contained algorithms to detect communities in networks"
+1151 "Economic small-world behavior in weighted networks"
+1152 "Synchronization reveals topological scales in complex networks"
+1153 "Defining and identifying communities in networks"
+1154 "Robust data clustering"
+1155 "Continuous extremal optimization for Lennard-Jones clusters"
+1156 "Community detection in complex networks using extremal optimization"
+1157 "Self-organizing network evolving model for mining network community structure"
+1158 "A novel visual clustering algorithm for finding community in complex network"
+1159 "Comparison and validation of community structures in complex networks"
+1160 "Phase synchronization on scale-free networks with community structure"
+1161 "Hierarchical organization unveiled by functional connectivity in complex brain net-works"
+1162 "基于拉普拉斯图谱和K均值的多社团发现方法 "
+1164 "Structure of growing networks with preferential linking"
+1165 "Random graphs with arbitrary degree distributions and their applications"
+1166 "The large-scale organization of metabolic networks"
+1167 "A faster algorithm for betweenness centrality"
+1168 "The structure of scientific collaboration networks"
+1169 "Si mple rules yield complex food webs"
+1170 "The small-world problem"
+1173 "A effic ient heuristic procedure for partition ing graphs"
+1174 "A m ethod to find commun ity structures based on inform ation centrality"
+1175 "D istance,d issim ilarity index and network commun ity structure"
+1176 "Detecting commun ities in large networks"
+1177 "Partition ing sparse m atrices w ith e igenvectors of graphs"
+1178 "E ffic ient behavior of sm all-world networks"
+1179 "F ind ing and evaluating commun ity structure in networks"
+1180 "F ind ing local commun ity structure in networks"
+1181 "Detecting network commun ities:a new system atic and effic ient algorithm"
+1182 "聚类算法研究 "
+1183 "基于特征加权的模糊聚类新算法 "
+1184 "一种基于CSA的混和属性特征大数据集聚类算法 "
+1185 "A review of classification"
+1186 "Towards an artificial immune system for network intrusion detection: An investigation of clonal selection with a negative selection operator"
+1187 "Knowledge discovery in databases terminology"
+1188 "A fuzzy k-modes algorithm for clustering categorical data"
+1189 "A fast clustering algorithm to cluster very large categorical data sets in data Mining"
+1190 "模糊聚类分析理论与应用研究进展 "
+1191 "Automated construction of clas-sifications:Conceptual clustering versus numerical taxono-my"
+1192 "Nerf C-means:Non-Euclidean relation fuzzy clustering"
+1193 "A fuzzyk-modes algorithm for clustering categorical data"
+1194 "Time-focused clustering of trajectories of moving objects"
+1195 "A Note on K-modes Clustering"
+1196 "K-modes Clustering"
+1197 "Extensions to the k-Means Algorithm for Clustering Large Data Sets with Categorical Values"
+1198 "Image segmentation using clustering"
+1199 "Probabilistic modeling of transactional data with applications to profiling,visualization and prediction,sigmod"
+1200 "Data clustering:A review"
+1201 "Investigating diversity of clustering methods:An empirical comparison"
+1202 "Algorithms for Clustering Data"
+1203 "Statistical pattern recognition:A review"
+1204 "Advanced data clustering methods of mining Web documents"
+1205 "Hempel’s raven paradox:A positive approach to cluster analysis"
+1207 "Evolution of networks"
+1208 "An information flowmodel for conflict and fission in small groups"
+1209 "On power-law rela-tionships of the internet topology"
+1210 "The small-world of human lan-guage"
+1211 "ALocal Method for Detecting Commu-nities"
+1212 "Finding local community structure in networks"
+1213 "An information flow model for conflict and fission in small groups"
+1214 "Scientific collaboration networks"
+1215 "Inferring Web communities from link topology"
+1217 "In search of the biological significance of modular structures in protein networks"
+1218 "Finding community structure in very large networks"
+1219 "Detecting fuzzy community structures in complex networks with a Potts model"
+1220 "A method to find community structures based on information centrality"
+1221 "Eigenvectors of network complement reveal community structure more accurately"
+1222 "Detecting community structure in complex networks via node similarity"
+1223 "Finding local community structure in networks"
+1224 "A local method for detecting communities"
+1225 "Clustering by passing messages between data points"
+1226 "Non-metric affinity propagation for unsupervised image categorization"
+1229 "Algebraic connectivity of graphs"
+1230 "An efficient heuristic procedure for partitioning graphs"
+1231 "The ’new’ science of networks"
+1232 "Partitioning sparse matrices with eigenvectors of graphs"
+1233 "Defining and identifying communities in networks"
+1234 "Network biology: understanding the cell’s functional organization"
+1235 "Network motifs: simple building blocks of complex networks"
+1236 "Network motifs in the transcriptional regulation network of Escherichia coli"
+1237 "Community detection in complex networks using extremal optimization"
+1240 "Substructure discovery in the SUBDUE system"
+1241 "An Apriori-based Algorithm for Mining Frequent Substructures from Graph Data"
+1242 "Network biology: Understanding the cell’s fuctional organization"
+1243 "Efficient detecting network motifs"
+1244 "An algorithm for finding frequent patterns in a large sparse graph"
+1245 "Network motifs: simple building blocks of complex networks"
+1246 "Transcriptional regulatory networks in Saccharomyces cerevisiae"
+1247 "基于MapReduce的高效频繁子图挖掘方法研究 "
+1249 "Mining molecular fragments:Finding relevant substructures of molecules"
+1250 "Substructures discovery in the subdue system"
+1251 "Applying algebraic mining method of graph substructures to mutageniesis data analysis"
+1252 "An apriori-based algorithm for mining frequent substructures from graph data"
+1253 "Frequent subgraph discovery"
+1254 "gSpan:Graph-Based substructure pattern mining"
+1255 "State of the art of graph-based data mining"
+1256 "CloseGraph:Mining closed frequent graph patterns"
+1257 "Efficient mining of frequent subgraphs in the presence of isomorphism"
+1258 "Discovering frequent topological structures from graph datasets"
+1259 "MapReduce"
+1260 "Frequent mining of subgraph structures"
+1261 "Multi-class pattern classification using neural networks"
+1262 "Knowledge Acquisition Via Incremental Conceptual Clustering"
+1263 "Automatic subspace clustering of high dimensional data for data mining applications"
+1264 "Mining Frequent Patterns without Candidate Generation"
+1265 "Dynamic load balancing for the distributed mining of molecular structures"
+1266 "A graph-based approach for discovering various types of association rules"
+1267 "An apriori based algorithm for mining frequent substructures from graph data"
+1268 "gSpan:Graph-based substructure pattern mining"
+1269 "Mining coherent dense subgraphs across massive biological networks for functional discovery"
+1270 "Google’s MapReduce programming model – Revisited"
+1271 "Application of knowledge discovery to molecular biology: Identifying structural regularities in proteins"
+1272 "Closegraph: Mining Closed Frequent Graph Patterns"
+1273 "复杂网络特征结构的挖掘方法研究 "
+1278 "Discovering global network communities based on local centralities"
+1279 "Detecting network communities:A new systematic and efficient algorithm"
+1280 "Defining and identifying communities in networks"
+1281 "In serach of the biological significance of modular structures in protein networks"
+1282 "Edge-Count probabilities for the identification of local protein communities and their organization"
+1283 "Discovering overlapping communities of named entities"
+1284 "Partitioning of Web graphs by community topology"
+1285 "A community-aware search engine"
+1286 "Prefetching in content distribution networks via Web communities identification and outsourcing"
+1287 "高维数据流形的低维嵌入及嵌入维数研究 "
+1288 "Defining and Identifying Communities in Networks"
+1289 "The Structure of Scientific Collaboration Networks"
+1290 "Community Structure in Social and Biological Networks"
+1291 "Community Detection in Graphs"
+1292 "Science Special Issue on Complex Networks"
+1293 "The Spread of Alcohol Consumption Behavior in a Large Social Network"
+1294 "The Spread of Obesity in a Large Social Network over 32 Years"
+1295 "A Method for Detecting Struccture in Sociometric Data"
+1296 "Graph Theory in the Information Age"
+1297 "复杂网络中随机图模型研究 "
+1298 "The chromatic number of random graphs"
+1299 "Critical phenomena in complex networks"
+1300 "On random graphs I"
+1301 "Graph theory and probability"
+1302 "Random Graphs"
+1303 "Random Graphs of Small Order"
+1304 "Rigorous location of phase transitions in hard optimization problems"
+1305 "Transitivity in Structural Models of Small Groups"
+1306 "Collective dynamics of ‘small-world’ networks"
+1307 "Emergence of scaling in random networks"
+1308 "Random graphs as models of networks"
+1309 "随机图上顶点度数序列及树分图的分布 "
+1310 "The Diameter of a Scale-Free RandomGraph"
+1311 "A remark on Stirling‘s formula"
+1312 "The Wiener index of trees with given degree sequences"
+1313 "On the evolution of random graphs"
+1314 "Directed scale-free graphs"
+1315 "Trees in random graphs"
+1316 "&quot;Degree sequences of random graphs,&quot;"
+1317 "The degree sequence of a scale-free random graph process"
+1318 "New bounds on the k-domination number and the k-tuple domination number"
+1319 "Some Remarks on The Theory of Random Trees"
+*arcs1 100
+1 101
+1 102
+1 24
+1 419
+1 420
+1 421
+1 422
+1 423
+1 424
+1 425
+1 426
+1 427
+1 428
+1 91
+1 93
+1 94
+1 95
+1 96
+1 97
+1 98
+1 99
+1000 1130
+1000 1144
+1000 1148
+1000 1151
+1000 1152
+1000 1153
+1000 1154
+1000 1155
+1000 1156
+1000 1157
+1000 1158
+1000 1159
+1000 1160
+1000 1161
+1001 1027
+1001 1062
+1001 1074
+1001 1120
+1001 1123
+1001 1124
+1001 1127
+1001 1128
+1001 1129
+1002 1004
+1002 1005
+1002 1006
+1002 1007
+1002 1008
+1002 1009
+1002 1010
+1002 1011
+1002 1012
+1002 1013
+1002 1014
+1002 1015
+1002 1016
+1002 1017
+1002 1018
+1002 1019
+1002 1020
+1002 1021
+1002 1022
+1002 1023
+1002 1024
+1002 1025
+1002 1026
+1003 1041
+1003 1042
+1003 1043
+1003 1044
+1003 1045
+1003 1046
+1003 1047
+1003 1048
+1003 1049
+1003 1050
+1003 1051
+1004 1054
+1004 1055
+1004 1056
+1004 1057
+1004 1058
+1004 1059
+1004 1060
+1004 1061
+1007 1080
+1007 1081
+1007 1082
+1007 1083
+1007 1084
+1007 1085
+1007 1086
+1007 1087
+1013 1092
+1013 1093
+1013 1094
+1013 1095
+1013 1099
+1013 1101
+1013 1102
+1013 1103
+1013 1104
+1013 1105
+1013 1107
+1013 1108
+1013 1109
+1013 1111
+1013 1112
+1013 1113
+1013 1114
+1013 1115
+1013 1116
+1013 1117
+1013 1118
+1013 1119
+1027 1029
+1027 1030
+1027 1031
+1027 1032
+1027 1033
+1027 1034
+1027 1035
+1027 1036
+103 197
+103 249
+103 296
+103 318
+103 429
+103 430
+103 431
+103 432
+103 433
+103 434
+103 435
+103 436
+103 437
+103 438
+103 439
+103 440
+103 441
+103 442
+103 443
+103 444
+103 445
+103 446
+104 116
+104 128
+104 167
+104 176
+104 177
+104 178
+104 179
+104 180
+104 181
+104 182
+104 183
+104 184
+104 185
+105 107
+105 108
+105 109
+105 110
+105 111
+105 112
+105 113
+105 114
+105 115
+105 188
+105 189
+105 190
+105 191
+105 192
+105 193
+105 194
+105 195
+105 196
+1062 1064
+1062 1065
+1062 1066
+1062 1067
+1062 1068
+1062 1069
+1062 1070
+1062 1071
+1062 1072
+1062 1073
+116 122
+116 123
+116 124
+116 125
+116 126
+116 127
+116 290
+116 291
+116 292
+116 293
+116 294
+116 295
+1182 1194
+1182 1195
+1182 1196
+1182 1197
+1182 1198
+1182 1199
+1182 1200
+1182 1201
+1182 1202
+1182 1203
+1182 1204
+1182 1205
+1183 1190
+1183 1191
+1183 1192
+1183 1193
+1184 1186
+1184 1187
+1184 1188
+1184 1189
+1247 1260
+1247 1261
+1247 1262
+1247 1263
+1247 1264
+1247 1265
+1247 1266
+1247 1267
+1247 1268
+1247 1269
+1247 1270
+1247 1271
+1247 1272
+1273 1288
+1273 1289
+1273 1290
+1273 1291
+1273 1292
+1273 1293
+1273 1294
+1273 1295
+1273 1296
+128 130
+128 142
+128 159
+128 160
+128 161
+128 162
+128 163
+128 164
+128 165
+128 166
+1297 1299
+1297 1300
+1297 1301
+1297 1302
+1297 1303
+1297 1304
+1297 1305
+1297 1306
+1297 1307
+1297 1308
+130 139
+130 140
+130 141
+1309 1311
+1309 1312
+1309 1313
+1309 1314
+1309 1315
+1309 1316
+1309 1317
+1309 1318
+1309 1319
+132 135
+132 136
+132 137
+132 138
+142 146
+143 145
+143 158
+144 157
+146 148
+146 149
+146 150
+146 151
+146 152
+167 1240
+167 1241
+167 1242
+167 1243
+167 1244
+167 1245
+167 1246
+167 170
+167 171
+167 172
+167 173
+167 174
+167 175
+197 199
+197 200
+197 201
+197 202
+197 203
+197 204
+197 205
+197 206
+197 207
+197 208
+197 209
+2 14
+2 15
+2 16
+2 17
+2 18
+2 19
+2 20
+2 21
+2 22
+2 23
+2 340
+2 341
+2 342
+2 343
+2 344
+2 345
+2 346
+2 347
+2 348
+2 349
+24 240
+24 241
+24 242
+24 243
+24 244
+24 245
+24 246
+24 247
+24 248
+24 380
+24 381
+24 382
+24 383
+24 384
+24 385
+24 386
+24 387
+24 388
+24 54
+24 55
+24 56
+24 57
+24 58
+24 59
+24 60
+24 61
+24 62
+249 274
+249 276
+249 277
+249 278
+249 279
+249 280
+249 281
+249 282
+249 283
+25 230
+25 231
+25 232
+25 233
+25 234
+25 235
+25 236
+25 237
+25 238
+25 37
+25 370
+25 371
+25 372
+25 373
+25 374
+25 375
+25 376
+25 377
+25 378
+25 38
+25 39
+25 40
+25 408
+25 409
+25 41
+25 410
+25 411
+25 412
+25 413
+25 414
+25 415
+25 416
+25 42
+25 43
+25 44
+25 45
+25 46
+25 47
+25 48
+25 49
+25 50
+25 51
+25 52
+25 82
+25 83
+25 84
+25 85
+25 86
+25 87
+25 88
+25 89
+25 90
+250 261
+250 263
+250 264
+250 265
+250 266
+250 267
+250 268
+250 269
+250 270
+250 271
+250 272
+250 273
+251 253
+251 254
+251 255
+251 256
+251 257
+251 258
+251 259
+251 260
+26 1249
+26 1250
+26 1251
+26 1252
+26 1253
+26 1254
+26 1255
+26 1256
+26 1257
+26 1258
+26 213
+26 214
+26 215
+26 216
+26 217
+26 218
+26 219
+26 220
+26 221
+26 222
+26 28
+26 29
+26 30
+26 31
+26 32
+26 33
+26 34
+26 35
+26 353
+26 354
+26 355
+26 356
+26 357
+26 358
+26 359
+26 36
+26 360
+26 361
+26 362
+26 391
+26 392
+26 393
+26 394
+26 395
+26 396
+26 397
+26 398
+26 399
+26 400
+26 65
+26 66
+26 67
+26 68
+26 69
+26 70
+26 71
+26 72
+26 73
+26 74
+296 308
+296 309
+296 310
+296 311
+296 312
+296 313
+296 314
+296 315
+296 316
+296 317
+297 299
+297 300
+297 301
+297 302
+297 303
+297 304
+297 305
+297 306
+297 307
+3 10
+3 11
+3 1135
+3 1136
+3 1137
+3 1138
+3 1139
+3 1140
+3 1141
+3 1142
+3 1143
+3 1173
+3 1174
+3 1175
+3 1176
+3 1177
+3 1178
+3 1179
+3 1180
+3 1181
+3 12
+3 13
+3 331
+3 332
+3 333
+3 334
+3 335
+3 336
+3 337
+3 338
+3 339
+3 5
+3 6
+3 7
+3 8
+3 9
+318 320
+318 321
+318 322
+318 323
+318 324
+318 325
+318 326
+447 1229
+447 1230
+447 1231
+447 1232
+447 1233
+447 1234
+447 1235
+447 1236
+447 1237
+447 635
+447 746
+447 802
+447 844
+447 886
+448 457
+448 510
+448 562
+448 622
+448 623
+448 625
+448 626
+448 627
+448 628
+448 629
+448 630
+448 631
+448 632
+448 633
+448 634
+449 451
+449 452
+449 453
+449 454
+449 455
+449 456
+457 504
+457 505
+457 506
+457 507
+457 508
+457 509
+457 740
+457 741
+457 742
+457 743
+457 744
+457 745
+458 475
+458 485
+458 488
+458 489
+458 490
+458 491
+458 492
+458 493
+458 724
+458 725
+458 726
+458 727
+458 728
+458 729
+459 461
+459 462
+459 463
+459 464
+459 465
+459 466
+459 467
+459 468
+459 469
+459 470
+459 471
+459 472
+459 473
+459 474
+459 552
+459 553
+459 554
+459 555
+459 556
+459 557
+459 558
+459 559
+459 560
+459 561
+459 701
+459 702
+459 703
+459 704
+459 705
+459 706
+459 707
+459 708
+459 709
+459 710
+459 824
+459 825
+459 826
+459 827
+459 828
+459 829
+459 830
+459 831
+459 832
+459 833
+475 477
+475 478
+475 479
+475 480
+475 481
+475 482
+475 483
+475 484
+475 495
+475 496
+475 497
+475 498
+475 499
+475 500
+475 501
+475 502
+475 503
+475 712
+475 713
+475 714
+475 715
+475 716
+475 717
+475 718
+475 719
+475 720
+475 731
+475 732
+475 733
+475 734
+475 735
+475 736
+475 737
+475 738
+475 739
+475 835
+475 836
+475 837
+475 838
+475 839
+475 840
+475 841
+475 842
+475 843
+510 526
+510 536
+510 537
+510 538
+510 539
+510 540
+510 541
+510 542
+510 543
+510 544
+511 520
+511 521
+511 522
+511 523
+511 524
+511 525
+512 1164
+512 1165
+512 1166
+512 1167
+512 1168
+512 1169
+512 1170
+512 514
+512 515
+512 516
+512 517
+512 518
+512 519
+512 757
+512 758
+512 759
+512 760
+512 761
+512 762
+512 763
+512 785
+512 786
+512 787
+512 788
+512 789
+512 790
+512 791
+526 528
+526 529
+526 530
+526 531
+526 532
+526 533
+526 534
+526 535
+562 590
+562 612
+563 570
+563 581
+563 584
+563 585
+563 586
+563 587
+563 588
+563 589
+564 566
+564 567
+564 568
+564 569
+564 609
+564 610
+564 611
+565 575
+565 576
+565 577
+565 578
+565 579
+565 580
+565 602
+565 603
+565 604
+565 605
+565 606
+565 607
+570 572
+590 592
+590 593
+590 594
+590 595
+590 596
+590 597
+590 598
+590 614
+590 615
+590 616
+590 617
+590 618
+590 619
+590 620
+590 621
+635 642
+635 660
+635 673
+635 683
+635 684
+635 685
+635 686
+635 687
+635 688
+635 689
+635 690
+635 691
+636 638
+636 639
+636 640
+636 641
+636 812
+636 813
+636 814
+636 815
+636 816
+642 651
+642 652
+642 653
+642 654
+642 655
+642 656
+642 657
+642 658
+642 659
+643 645
+643 646
+643 647
+643 648
+643 649
+643 650
+660 1278
+660 1279
+660 1280
+660 1281
+660 1282
+660 1283
+660 1284
+660 1285
+660 1286
+660 664
+660 665
+660 666
+660 667
+660 668
+660 669
+660 670
+660 671
+660 672
+673 1207
+673 1208
+673 1209
+673 1210
+673 1211
+673 1212
+673 1213
+673 1214
+673 1215
+673 675
+673 676
+673 677
+673 678
+673 679
+673 680
+673 681
+673 682
+746 792
+746 793
+746 794
+746 795
+746 796
+746 797
+746 798
+746 799
+746 800
+746 801
+747 765
+747 766
+747 767
+747 768
+747 769
+747 770
+747 771
+747 772
+747 773
+747 774
+747 775
+748 750
+748 751
+748 752
+748 753
+748 754
+748 755
+748 777
+748 778
+748 779
+748 780
+748 781
+748 782
+748 783
+802 804
+802 805
+802 806
+802 807
+802 808
+802 809
+802 810
+844 854
+844 865
+844 872
+844 873
+844 874
+844 875
+844 876
+844 877
+844 878
+844 879
+844 880
+844 881
+844 882
+844 883
+844 884
+844 885
+845 847
+845 848
+845 849
+845 850
+845 851
+845 852
+845 853
+854 856
+854 857
+854 858
+854 859
+854 860
+854 861
+854 862
+854 863
+854 864
+865 867
+865 871
+886 1000
+886 1162
+886 1182
+886 1217
+886 1218
+886 1219
+886 1220
+886 1221
+886 1222
+886 1223
+886 1224
+886 1225
+886 1226
+887 910
+887 929
+887 986
+887 987
+887 988
+887 989
+887 991
+887 998
+887 999
+888 901
+888 902
+888 903
+888 904
+888 905
+888 906
+888 907
+888 908
+888 909
+889 891
+889 892
+889 893
+889 894
+889 895
+889 896
+889 897
+889 898
+889 899
+889 900
+910 912
+910 913
+910 918
+910 923
+910 925
+910 926
+910 927
+910 928
+913 915
+913 916
+913 917
+918 920
+918 921
+918 922
+929 937
+929 938
+929 948
+929 958
+929 965
+929 980
+930 932
+930 933
+930 934
+930 935
+930 936
+938 940
+938 941
+938 942
+938 943
+938 944
+938 945
+938 946
+938 947
+948 950
+948 951
+948 952
+948 953
+948 954
+948 955
+948 956
+948 957
+958 960
+958 961
+958 962
+958 963
+958 964
+965 967
+965 968
+965 969
+965 970
+965 971
+965 972
+965 973
+965 974
+965 975
+965 976
+965 977
+965 978
+965 979
+980 982
+980 983
+980 984
+980 985
+991 997
+992 994
+992 995
+992 996

@@ -6,6 +6,7 @@ import re
 from bs4 import BeautifulSoup
 # from wordcloud import WordCloud
 import matplotlib.pyplot as plt
+import pymysql.cursors
 
 times = 3
 
@@ -14,29 +15,29 @@ url_arry = {
     'kcms' : 'kcms',
     'detail' : 'detail',
     'frame' : 'frame',
-	'detailfile' : 'detail.aspx',
-	'listfile' : 'detaillist.aspx'
+    'detailfile' : 'detail.aspx',
+    'listfile' : 'detaillist.aspx'
 }
 
 reftype = {
     'reference' : 1,
-	'similarity' : 7,
-	'focus' : 8
+    'similarity' : 7,
+    'focus' : 8
 }
 
 htmldom = {
-	'titleid' : 'chTitle',
-	'entitleid' : 'entitle',
-	'authorclass' : 'KnowledgeNetLink',
-	'abstractid' : 'ChDivSummary',
-	'keywordid' : 'ChDivKeyWord',
-	'listvid' : 'listv',
-	'zwjdown' : 'zwjdown',
-	'zwjRightRow' : 'zwjRightRow',
-	'entable' : 'table[bgcolor=#f1f1f1]',
-	'strContext' : 'strContext',
-	'filenameid' : 'filename',
-	'tablenameid' : 'tablename'
+    'titleid' : 'chTitle',
+    'entitleid' : 'entitle',
+    'authorclass' : 'KnowledgeNetLink',
+    'abstractid' : 'ChDivSummary',
+    'keywordid' : 'ChDivKeyWord',
+    'listvid' : 'listv',
+    'zwjdown' : 'zwjdown',
+    'zwjRightRow' : 'zwjRightRow',
+    'entable' : 'table[bgcolor=#f1f1f1]',
+    'strContext' : 'strContext',
+    'filenameid' : 'filename',
+    'tablenameid' : 'tablename'
 }
 
 def get_text_by_id(soup, id_string):
@@ -51,6 +52,7 @@ def create_html(url):
     return r.text
 
 def run_article_list(url, aricle_from, run_times):
+    print url
     list_html_code = create_html(url)
     list_soup = BeautifulSoup(list_html_code, 'html.parser')
     list_li = list_soup.find_all('li')
@@ -84,16 +86,21 @@ def run_article(url, aricle_from, run_times):
 
         abstract = get_text_by_id(soup, htmldom['abstractid'])
 
-        print article_title
+        print title
 
         print abstract
         ################
         keywords = get_text_by_id(soup, htmldom['keywordid'])
         p = re.compile('\s+')
         keywords = re.sub(p, '', keywords)
-        seg_list = jieba.cut(abstract, cut_all=False)
+        # seg_list = jieba.cut(abstract, cut_all=False)
 
         print keywords
+        ################
+        # if(mysql_query('insert ignore into `articles` (`title`, `author`, `abstract`, `keywords`, `filename`, `dbcode`, `type`, `href`, `toname`) values ("'.$article_information['title'].'", "'.$article_information['author'].'", "'.$article_information['abstract'].'", "'.$article_information['keywords'].'", "'.$article_information['filename'].'", "'.$article_information['dbcode'].'", "'.'1'.'", "'.html_encode($urllist).'", "'.$from.'");'))
+        #     echo "<a href=".$urllist.">".$article_information['title']."</a> <strong>".$times."</strong> \n";
+        # else echo(mysql_error());
+
         ################
         listv = soup.find(id=htmldom['listvid'])['value']
         zwjdown_string = soup.find('div', {'class': htmldom['zwjdown']}).a['href'].strip()
@@ -126,14 +133,20 @@ def run_article(url, aricle_from, run_times):
         return 0
 
 def main():
+    conn = pymysql.connect(host='localhost', port=3306, user='root', passwd='', db='forestry_literature', charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor)
+    get_cur = conn.cursor()
+	insert_cur = conn.cursor()
     # fd = open('in.txt', 'r')
     # for line in fd:
     #     print line.strip('\n')
     #     run_article(line.strip('\n'), 0, times)
 
-    run_article('http://www.cnki.net/KCMS/detail/detail.aspx?QueryID=0&CurRec=1&recid=&filename=WLXB200203004&dbname=CJFD2002&dbcode=CJFQ&pr=&urlid=&yx=&uid=WEEvREcwSlJHSldTTGJhYkg4eVRBdm56aWY2T0sxTzdHMEN1UjduUWd0M0RTOE8wWVNMZExUTVBLYVVQTDFtbExHOD0=$9A4hF_YAuvQ5obgVAqNKPCYcEjKensW4IQMovwHtwkF4VYPoHbKxJw!!&v=MjY5MjRSTHlmWStadEZ5M21VTDNMTWlIVGJMRzRIdFBNckk5RllJUjhlWDFMdXhZUzdEaDFUM3FUcldNMUZyQ1U=', 0, times)
-    # article_url = 'http://www.cnki.net/KCMS/detail/detail.aspx?dbcode=CMFD&dbname=CMFD201301&filename=1013121221.nh'
-    # run_article(article_url, 0, 0)
+    # run_article('', 0, times)
+    article_url = 'http://www.cnki.net/KCMS/detail/detail.aspx?dbcode=CMFD&dbname=cmfd201402&filename=1014327913.nh'
+    run_article(article_url, 0, times)
+    get_cur.close()
+	insert_cur.close()
+    conn.close()
 
 if __name__ == '__main__':
     main()
