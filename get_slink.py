@@ -10,22 +10,22 @@ def create_net(conn, file_write):
 	get_article_cur = conn.cursor()
 	get_slink_cur = conn.cursor()
 
-	get_article_cur.execute("SELECT DISTINCT `id`, `title` FROM `articles` ORDER BY `id`")
+	get_article_cur.execute("SELECT DISTINCT `id`, `title` FROM `resort_articles` ORDER BY `id`")
 
-	file_write_node = '*vertices %d' % (get_article_cur.rowcount)
+	file_write_node = '*Vertices %d\n' % (get_article_cur.rowcount)
 	print file_write_node
 	fw.write(file_write_node)
 	for article_row in get_article_cur:
 		article_id = article_row.get('id')
 		article_title = article_row.get('title').encode('utf-8')
 
-		file_write_str = '%s "%s"\n' % (article_id, article_title)
+		file_write_str = "%s '%s'\n" % (article_id, article_title)
 		print(file_write_str)
 		fw.write(file_write_str)
 
-	get_slink_cur.execute("SELECT DISTINCT `article_id`, `reference_id` FROM `slink` ORDER BY `article_id`")
+	get_slink_cur.execute("SELECT DISTINCT `article_id`, `reference_id` FROM `slink` ORDER BY `id`")
 
-	file_write_edge = '*arcs'
+	file_write_edge = '*arcs\n'
 	print file_write_edge
 	fw.write(file_write_edge)
 	for slink_row in get_slink_cur:
@@ -45,7 +45,7 @@ def get_slink(conn):
 	get_cur = conn.cursor()
 	insert_cur = conn.cursor()
 
-	get_cur.execute("SELECT DISTINCT `id`,`filename` FROM `articles` WHERE `filename` != ''")
+	get_cur.execute("SELECT DISTINCT `id`,`filename` FROM `resort_articles` WHERE `filename` != ''")
 
 	i = 0
 	j = 0
@@ -57,7 +57,7 @@ def get_slink(conn):
 
 		# insert_sql_string = ''
 		get_row_cur = conn.cursor()
-		sql_string = "SELECT `id` FROM `articles` WHERE `toname` = '%s'" % (article_filename)
+		sql_string = "SELECT `id` FROM `resort_articles` WHERE `toname` = '%s'" % (article_filename)
 		# print sql_string
 		get_row_cur.execute(sql_string)
 		result = get_row_cur.fetchone()
@@ -74,7 +74,7 @@ def get_slink(conn):
 			get_row_cur.close()
 			conn.commit()
 
-			create_net('slink.net', file_write_str)
+			# create_net('slink.net', file_write_str)
 
 	get_cur.close()
 	insert_cur.close()
