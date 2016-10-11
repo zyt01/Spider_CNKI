@@ -16,16 +16,16 @@ Spider CNKI in python
 
 - data_cnki_py_db
   sql File
-  运行前请保证你已在 mysql 数据库中建立了相应的表结构（在两个 .sql 文件中）
+  运行前请保证你已在 mysql 数据库中建立了相应的表结构（在三个 .sql 文件中）
 
   如下：
   ```
-  CREATE TABLE IF NOT EXISTS `resort_articles` (
+  CREATE TABLE IF NOT EXISTS `articles` (
     `id` int(11) NOT NULL,
     `title` varchar(500) DEFAULT NULL,
-    `author` varchar(500) DEFAULT NULL,
+    `author` varchar(300) DEFAULT NULL,
     `abstract` text,
-    `keywords` varchar(500) DEFAULT NULL,
+    `keywords` varchar(300) DEFAULT NULL,
     `dbcode` varchar(50) DEFAULT NULL,
     `sid` varchar(300) DEFAULT NULL,
     `filename` varchar(200) DEFAULT NULL,
@@ -33,7 +33,7 @@ Spider CNKI in python
     `level` int(11) DEFAULT NULL,
     `href` varchar(500) DEFAULT NULL,
     `toname` varchar(200) DEFAULT NULL
-  ) ENGINE=InnoDB AUTO_INCREMENT=11092 DEFAULT CHARSET=utf8;
+  ) ENGINE=InnoDB AUTO_INCREMENT=13913 DEFAULT CHARSET=utf8;
   ```
 
   并且，在文件 spider_cnki.py 的 main 中修改你的数据库相关配置信息（库名、用户名、密码）：
