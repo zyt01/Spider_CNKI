@@ -19,7 +19,9 @@ Spider CNKI in python
   这一步运行完后会产生引用关系数据，数据在表 slink 中，并且生成 slink.net 文件
 
 - data_cnki_py_db
+
   sql File
+
   运行前请保证你已在 mysql 数据库中建立了相应的表结构（在三个 .sql 文件中）
 
   如下：
