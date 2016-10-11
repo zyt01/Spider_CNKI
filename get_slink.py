@@ -82,7 +82,7 @@ def get_slink(conn):
 def main():
 	conn = pymysql.connect(host='localhost', port=3306, user='root', passwd='', db='cnki_py_db', charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor)
 
-	# get_slink(conn)
+	get_slink(conn)
 	create_net(conn, 'slink.net')
 	conn.close()
 
