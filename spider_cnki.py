@@ -313,7 +313,7 @@ def main():
     # article_url = 'http://www.cnki.net/kcms/detail/detail.aspx?filename=XTIB201601002&dbcode=CJFQ&dbname=CJFDTEMP&v='
     # article_url = 'http://www.cnki.net/kcms/detail/detail.aspx?filename=JSJC200315041&dbcode=CJFQ&dbname=CJFD2003&v='
     # run_article(article_url, 0, times, conn)
-    # reorder_data(conn)
+    reorder_data(conn)
 
     conn.close()
 
