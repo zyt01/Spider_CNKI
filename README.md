@@ -36,7 +36,7 @@ Spider CNKI in python
   ) ENGINE=InnoDB AUTO_INCREMENT=11092 DEFAULT CHARSET=utf8;
   ```
 
-  并且，在文件 spider_cnki.py 的 main 中修改你的数据库用户名及密码：
+  并且，在文件 spider_cnki.py 的 main 中修改你的数据库相关配置信息（库名、用户名、密码）：
 
   ```python
   def main():
