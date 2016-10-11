@@ -8,11 +8,15 @@ Spider CNKI in python
   ```
   抓知网文献数据
 
+  这一步运行完后会在数据库中产生文献信息数据，数据在表 articles 和 resort_articles 中
+
 - get_slink.py
   ```python
   python get_slink.py
   ```
   生成文献引用网络
+
+  这一步运行完后会产生引用关系数据，数据在表 slink 中，并且生成 slink.net 文件
 
 - data_cnki_py_db
   sql File
