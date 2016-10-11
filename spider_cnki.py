@@ -301,19 +301,19 @@ def run_article(url, aricle_from, run_times, conn):
 def main():
     conn = pymysql.connect(host='localhost', port=3306, user='root', passwd='', db='cnki_py_db', charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor)
 
-    # line_num = 0
-    # fd = open('in.txt', 'r')
-    # for line in fd:
-    #     # print line.strip('\n')
-    #     print 'line:%d' % (line_num)
-    #     run_article(line.strip('\n'), 0, times, conn)
-    #     line_num += 1
+    line_num = 0
+    fd = open('in.txt', 'r')
+    for line in fd:
+        # print line.strip('\n')
+        print 'line:%d' % (line_num)
+        run_article(line.strip('\n'), 0, times, conn)
+        line_num += 1
 
     # run_article('', 0, times, conn)
     # article_url = 'http://www.cnki.net/kcms/detail/detail.aspx?filename=XTIB201601002&dbcode=CJFQ&dbname=CJFDTEMP&v='
     # article_url = 'http://www.cnki.net/kcms/detail/detail.aspx?filename=JSJC200315041&dbcode=CJFQ&dbname=CJFD2003&v='
     # run_article(article_url, 0, times, conn)
-    reorder_data(conn)
+    # reorder_data(conn)
 
     conn.close()
 
