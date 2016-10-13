@@ -75,3 +75,7 @@ Spider CNKI in python
 
 - slink.net
   文献引用网络
+
+  抓到的数量如图（Gephi 上显示）：
+
+  ![qq20161013-1](https://cloud.githubusercontent.com/assets/12579211/19355033/6a3d3cac-919b-11e6-98a3-714e0b99a298.png)
