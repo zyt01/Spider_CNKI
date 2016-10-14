@@ -40,7 +40,13 @@ Spider CNKI in python
     `href` varchar(500) DEFAULT NULL,
     `toname` varchar(200) DEFAULT NULL
   ) ENGINE=InnoDB AUTO_INCREMENT=13913 DEFAULT CHARSET=utf8;
+
+
+  ALTER TABLE `articles` ADD PRIMARY KEY(`id`);
+  ALTER TABLE `articles` CHANGE `id` `id` INT(11) NOT NULL AUTO_INCREMENT;
   ```
+  后面两句是我自己加上的，sql 导出时没有设置上，但是很重要，确保 id 为主键且自增。
+
 
   并且，在文件 spider_cnki.py 的 main 中修改你的数据库相关配置信息（库名、用户名、密码）：
 
