@@ -32,6 +32,9 @@ CREATE TABLE IF NOT EXISTS `slink` (
   `reference_id` varchar(200) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+ALTER TABLE `slink` ADD PRIMARY KEY(`id`);
+ALTER TABLE `slink` CHANGE `id` `id` INT(11) NOT NULL AUTO_INCREMENT;
+
 --
 -- 转存表中的数据 `slink`
 --
