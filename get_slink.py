@@ -4,13 +4,22 @@ import re
 import pymysql
 import pymysql.cursors
 
+def replace_char(old_str):
+    if(old_str == None):
+        return '';
+    new_str = re.sub(r'\'', "’", old_str)
+    new_str = re.sub(r'\"', "”", new_str)
+    new_str = re.sub(r'\n', "", new_str)
+    return new_str
+
 def create_net(conn, file_write):
 	fw = open(file_write, 'w+')
 
 	get_article_cur = conn.cursor()
 	get_slink_cur = conn.cursor()
 
-	get_article_cur.execute("SELECT DISTINCT `id`, `title` FROM `resort_articles` ORDER BY `id`")
+	# get_article_cur.execute("SELECT DISTINCT `id`, `title` FROM `resort_articles` ORDER BY `id`")
+	get_article_cur.execute("SELECT DISTINCT `id`, `title` FROM `articles_id` ORDER BY `id`")
 
 	file_write_node = '*Vertices %d\n' % (get_article_cur.rowcount)
 	print file_write_node
@@ -19,7 +28,7 @@ def create_net(conn, file_write):
 		article_id = article_row.get('id')
 		article_title = article_row.get('title').encode('utf-8')
 
-		file_write_str = "%s '%s'\n" % (article_id, article_title)
+		file_write_str = "%s \"%s\"\n" % (article_id, replace_char(article_title))
 		print(file_write_str)
 		fw.write(file_write_str)
 
@@ -45,7 +54,7 @@ def get_slink(conn):
 	get_cur = conn.cursor()
 	insert_cur = conn.cursor()
 
-	get_cur.execute("SELECT DISTINCT `id`,`filename` FROM `resort_articles` WHERE `filename` != ''")
+	get_cur.execute("SELECT DISTINCT `id`,`filename` FROM `articles_id` WHERE `filename` != 'None'")
 
 	i = 0
 	j = 0
@@ -57,16 +66,15 @@ def get_slink(conn):
 
 		# insert_sql_string = ''
 		get_row_cur = conn.cursor()
-		sql_string = "SELECT `id` FROM `resort_articles` WHERE `toname` = '%s'" % (article_filename)
+		sql_string = "SELECT DISTINCT `fileid` FROM `resort_articles` WHERE `toname` = '%s'" % (article_filename)
 		# print sql_string
 		get_row_cur.execute(sql_string)
-		result = get_row_cur.fetchone()
 
 		for reference_row in get_row_cur:
-			reference_id = reference_row.get('id')
+			reference_id = reference_row.get('fileid')
 			if reference_id != '':
 				j = j + 1
-				insert_sql_string = "INSERT INTO `slink` (`id`, `article_id`, `reference_id`) VALUES (%d, '%s', '%s');" % (j, article_id, reference_id)
+				insert_sql_string = "INSERT IGNORE INTO `slink` (`id`, `article_id`, `reference_id`) VALUES (%d, '%s', '%s');" % (j, article_id, reference_id)
 				print insert_sql_string
 				insert_cur.execute(insert_sql_string)
 
@@ -80,10 +88,10 @@ def get_slink(conn):
 	insert_cur.close()
 
 def main():
-	conn = pymysql.connect(host='localhost', port=3306, user='root', passwd='', db='cnki_py_db', charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor)
+	conn = pymysql.connect(host='localhost', port=3306, user='root', passwd='', db='cnki_py2_db', charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor)
 
 	get_slink(conn)
-	create_net(conn, 'slink.net')
+	create_net(conn, 'slink1.net')
 	conn.close()
 
 if __name__ == '__main__':
