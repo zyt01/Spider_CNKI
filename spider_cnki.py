@@ -44,6 +44,8 @@ htmldom = {
 }
 
 def replace_char(old_str):
+    if(old_str == None):
+        return '';
     new_str = re.sub(r'\'', "\\\'", old_str)
     new_str = re.sub(r'\"', "\\\"", new_str)
     return new_str
@@ -80,9 +82,26 @@ def create_html(url):
     r = requests.get(url)
     return r.text
 
+def get_articles_id(conn):
+    get_cur = conn.cursor()
+    insert_cur = conn.cursor()
+
+    get_cur.execute("SELECT DISTINCT `title`,`filename` FROM `articles`")
+
+    for row in get_cur:
+        article_title = row.get('title')
+        article_filename = row.get('filename')
+
+        insert_sql_string = "INSERT IGNORE INTO `articles_id` (`title`, `filename`) VALUES ('%s', '%s');" % (replace_char(article_title), article_filename)
+        # print insert_sql_string
+        insert_cur.execute(insert_sql_string)
+        conn.commit()
+
+    get_cur.close()
+    insert_cur.close()
+
 def reorder_data(conn):
     select_cur = conn.cursor()
-    insert_cur = conn.cursor()
 
     select_sql_string = "SELECT `title`, `author`, `abstract`, `keywords`, `filename`, `dbcode`, `type`, `level`, `href`, `toname` FROM `articles`;"
 
@@ -93,16 +112,32 @@ def reorder_data(conn):
 
     i = 0
     for row in select_cur:
+        article_title = row.get('title')
+        article_filename = row.get('filename')
+
         i = i + 1
 
         get_row_cur = conn.cursor()
-        sql_string = "INSERT INTO `resort_articles` (`title`, `author`, `abstract`, `keywords`, `filename`, `dbcode`, `type`, `level`, `href`, `toname`) VALUES ('%s', '%s', '%s', '%s', '%s', '%s', '%d', '%d', '%s', '%s');" % (row.get('title'), row.get('author'), row.get('abstract'), row.get('keywords'), row.get('filename'), row.get('dbcode'), row.get('type'), row.get('level'), row.get('href'), row.get('toname'))
-        print sql_string
+
+        sql_string = "SELECT `id`, `title`, `filename` FROM `articles_id` WHERE `title` = '%s' AND `filename` = '%s';" % (replace_char(row.get('title')), row.get('filename'))
+
         try:
             get_row_cur.execute(sql_string)
-            conn.commit()
+        except:
+            print "get select error"
+
+        file_id = get_row_cur.fetchone()
+        print file_id['id']
+        article_fileid = file_id['id']
+
+        insert_cur = conn.cursor()
+        sql_string = 'INSERT INTO `resort_articles` (`title`, `author`, `abstract`, `keywords`, `filename`, `fileid`, `dbcode`, `type`, `level`, `href`, `toname`) VALUES ("%s", "%s", "%s", "%s", "%s", "%s", "%s", "%d", "%d", "%s", "%s");' % (replace_char(row.get('title')), replace_char(row.get('author')), replace_char(row.get('abstract')), replace_char(row.get('keywords')), row.get('filename'), article_fileid, row.get('dbcode'), row.get('type'), row.get('level'), replace_char(row.get('href')), row.get('toname'))
+        print sql_string
+        try:
+            insert_cur.execute(sql_string)
         except:
             print "insert error"
+        conn.commit()
         print i
 
     get_row_cur.close()
@@ -200,7 +235,12 @@ def run_article(url, aricle_from, run_times, conn):
         # print article_information['keywords']
 
         listv = soup.find(id=htmldom['listvid'])['value']
-        zwjdown_string = soup.find('div', {'class': htmldom['zwjdown']}).a['href'].strip()
+        elem = soup.find('div', {'class': htmldom['zwjdown']})
+
+        if(elem != None):
+            zwjdown_string = elem.a['href'].strip()
+        else:
+            zwjdown_string = ''
 
         pm = re.compile('filename=([^&]+)&dbcode=([^&]+)&dbname=([^&]+)')
         match = re.search(pm, zwjdown_string)
@@ -209,9 +249,18 @@ def run_article(url, aricle_from, run_times, conn):
             article_information['dbcode'] = match.group(2)
             article_information['dbname'] = match.group(3)
 
-        sql_string = "INSERT IGNORE INTO `articles` (`title`, `author`, `abstract`, `keywords`, `filename`, `dbcode`, `type`, `level`, `href`, `toname`) VALUES ('%s', '%s', '%s', '%s', '%s', '%s', '%d', '%d', '%s', '%s');" % (article_information['title'], article_information['author'], article_information['abstract'], article_information['keywords'], article_information['filename'], article_information['dbcode'], 1, run_times, url, aricle_from)
+        select_sql_string = "SELECT `title`, `filename` FROM `articles` WHERE `title` = '%s' AND `filename` = '%s';" % (article_information['title'], article_information['filename'])
+
+        select_cur = conn.cursor()
+
+        try:
+            rownum = select_cur.execute(select_sql_string)
+        except:
+            print "select error"
+
+        sql_string = "INSERT INTO `articles` (`title`, `author`, `abstract`, `keywords`, `filename`, `dbcode`, `type`, `level`, `href`, `toname`) VALUES ('%s', '%s', '%s', '%s', '%s', '%s', '%d', '%d', '%s', '%s');" % (article_information['title'], article_information['author'], article_information['abstract'], article_information['keywords'], article_information['filename'], article_information['dbcode'], 1, run_times, url, aricle_from)
         # print 'run_num:%d' % (run_num)
-        # run_num += run_num + 1
+        # run_num = run_num + 1
         # print sql_string
 
         insert_cur = conn.cursor()
@@ -221,12 +270,14 @@ def run_article(url, aricle_from, run_times, conn):
         except:
             print url
         conn.commit()
+        select_cur.close()
         insert_cur.close()
 
-        listurl = url_arry['domain'] + '/' + url_arry['kcms'] + '/' + url_arry['detail'] + '/' + url_arry['frame'] + '/' + url_arry['listfile']\
-        + '?filename=' + article_information['filename'] + '&dbcode=' + article_information['dbcode'] + '&dbname=' + article_information['dbname']\
-        + '&reftype=' + str(reftype['reference']) + '&vl=' + listv
-        run_article_list(listurl, article_information['filename'], run_times-1, conn)
+        if(rownum == 0):
+            listurl = url_arry['domain'] + '/' + url_arry['kcms'] + '/' + url_arry['detail'] + '/' + url_arry['frame'] + '/' + url_arry['listfile']\
+            + '?filename=' + article_information['filename'] + '&dbcode=' + article_information['dbcode'] + '&dbname=' + article_information['dbname']\
+            + '&reftype=' + str(reftype['reference']) + '&vl=' + listv
+            run_article_list(listurl, article_information['filename'], run_times-1, conn)
 
     elif soup.find(id=htmldom['entitleid']) != None:
         article_title = soup.find(id=htmldom['entitleid'])
@@ -250,9 +301,9 @@ def run_article(url, aricle_from, run_times, conn):
         # print article_information['abstract']
         # print article_information['keywords']
         # print url
-        sql_string = "INSERT IGNORE INTO `articles` (`title`, `author`, `abstract`, `keywords`, `filename`, `dbcode`, `type`, `level`, `href`, `toname`) VALUES ('%s', '%s', '%s', '%s', '%s', '%s', '%d', '%d', '%s', '%s');" % (replace_char(article_information['title']), replace_char(article_information['author']), replace_char(article_information['abstract']), replace_char(article_information['keywords']), replace_char(article_information['filename']), article_information['dbcode'], 2, run_times, url, aricle_from)
+        sql_string = "INSERT INTO `articles` (`title`, `author`, `abstract`, `keywords`, `filename`, `dbcode`, `type`, `level`, `href`, `toname`) VALUES ('%s', '%s', '%s', '%s', '%s', '%s', '%d', '%d', '%s', '%s');" % (replace_char(article_information['title']), replace_char(article_information['author']), replace_char(article_information['abstract']), replace_char(article_information['keywords']), replace_char(article_information['filename']), article_information['dbcode'], 2, run_times, url, aricle_from)
         # print 'run_num:%d' % (run_num)
-        # run_num += run_num + 1
+        # run_num = run_num + 1
         # print sql_string
 
         insert_cur = conn.cursor()
@@ -284,9 +335,9 @@ def run_article(url, aricle_from, run_times, conn):
         if match:
             article_information['author']  = match.group(1)
 
-        sql_string = "INSERT IGNORE INTO `articles` (`title`, `author`, `sid`, `type`, `level`, `href`, `toname`) VALUES ('%s', '%s', '%s', '%d', '%d', '%s', '%s');" % (replace_char(article_information['title']), replace_char(article_information['author']), replace_char(article_information['sid']), 3, run_times, url, aricle_from)
+        sql_string = "INSERT INTO `articles` (`title`, `author`, `sid`, `type`, `level`, `href`, `toname`) VALUES ('%s', '%s', '%s', '%d', '%d', '%s', '%s');" % (replace_char(article_information['title']), replace_char(article_information['author']), replace_char(article_information['sid']), 3, run_times, url, aricle_from)
         # print 'run_num:%d' % (run_num)
-        # run_num += run_num + 1
+        # run_num = run_num + 1
         # print sql_string
 
         insert_cur = conn.cursor()
@@ -299,7 +350,7 @@ def run_article(url, aricle_from, run_times, conn):
         return 0
 
 def main():
-    conn = pymysql.connect(host='localhost', port=3306, user='root', passwd='', db='cnki_py_db', charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor)
+    conn = pymysql.connect(host='localhost', port=3306, user='root', passwd='', db='cnki_py2_db', charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor)
 
     line_num = 0
     fd = open('in.txt', 'r')
@@ -313,6 +364,9 @@ def main():
     # article_url = 'http://www.cnki.net/kcms/detail/detail.aspx?filename=XTIB201601002&dbcode=CJFQ&dbname=CJFDTEMP&v='
     # article_url = 'http://www.cnki.net/kcms/detail/detail.aspx?filename=JSJC200315041&dbcode=CJFQ&dbname=CJFD2003&v='
     # run_article(article_url, 0, times, conn)
+
+    get_articles_id(conn)
+
     reorder_data(conn)
 
     conn.close()
